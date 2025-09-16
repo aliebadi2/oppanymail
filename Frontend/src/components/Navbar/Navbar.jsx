@@ -55,7 +55,6 @@ function Navbar() {
               <li className='navbar-li-content'><a href="/">خانه</a></li>
               <li className='navbar-li-content'><a href="/all_mentors">منتورها</a></li>
               <li className='navbar-li-content'><a href="/articles">مقالات</a></li>
-              <li className='navbar-li-content'><a href="#">قوانین</a></li>
               <li className='navbar-li-content'><a href='/common_questions'>سوالات متداول</a></li>
             </ul>
           </div>

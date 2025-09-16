@@ -65,10 +65,7 @@ function Footer() {
         <ul className='footer-f-links'>
           <li>درباره ما</li>
           <li>تماس با ما</li>
-          <li>قوانین سایت</li>
-          <li>نظرات شما</li>
         </ul>
-        <p>Designed by 104team</p>
       </div>
     </div>
   );

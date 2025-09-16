@@ -71,7 +71,6 @@ function MobileNavbar() {
               <a href="/" onClick={closeMenu}>خانه</a>
               <a href="/all_mentors" onClick={closeMenu}>منتورها</a>
               <a href="/articles" onClick={closeMenu}>مقالات</a>
-              <a href="#" onClick={closeMenu}>قوانین</a>
               <a href='/common_questions' onClick={closeMenu}>سوالات متداول</a>
             </div>
             

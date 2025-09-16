@@ -92,3 +92,115 @@
   bottom: 10%;
   margin-bottom: 1rem;
 }
+
+/* Create Account Button Styling */
+.mentee-signup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dash-color);
+  border: none;
+  border-radius: 1rem;
+  height: 2.7rem;
+  color: white;
+  font-family: 'Yekan';
+  font-size: 1.4rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.16);
+  text-decoration: none;
+  padding: 1rem 3rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.mentee-signup-button:hover {
+  background-color: #012068e0;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px 0px rgba(96, 97, 112, 0.24);
+}
+
+.mentee-signup-button:active {
+  transform: translateY(0);
+  box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.16);
+}
+
+.mentee-signup-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.16);
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .step-bar-container-mentee {
+    margin-bottom: 1rem;
+  }
+
+  .step-bar-mentee {
+    width: 40%;
+  }
+
+  .mentor-signup-link {
+    position: relative;
+    bottom: auto;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .mentor-signup-link p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .mentor-signup-link a {
+    font-size: 0.9rem;
+  }
+
+  .mentee-signup-page-buttons {
+    width: 100%;
+    position: relative;
+    bottom: auto;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .mentee-signup-button {
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding: 0.8rem 2rem;
+  }
+
+  .error-container-div {
+    padding: 0.5rem 2rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .step-bar-mentee {
+    width: 50%;
+  }
+
+  .mentor-signup-link p {
+    font-size: 0.8rem;
+  }
+
+  .mentor-signup-link a {
+    font-size: 0.8rem;
+  }
+
+  .error-container-div {
+    padding: 0.4rem 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .mentee-signup-button {
+    font-size: 1.1rem;
+    height: 2.3rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
