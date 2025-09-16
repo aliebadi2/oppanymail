@@ -88,3 +88,132 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
+
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .article-page-container {
+    width: 85%;
+    padding: 1.5rem;
+    gap: 1.2rem;
+  }
+  
+  .article-page-main-title {
+    font-size: 1.8rem;
+  }
+  
+  .article-page-paragraph {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .article-page-content-header {
+    font-size: 1.6rem;
+  }
+  
+  .article-page-image {
+    max-width: 50vw;
+    max-height: 35vh;
+  }
+  
+  .article-page-profile-image-container {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  
+  .article-page-writer-name {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .article-page-container {
+    width: 95%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .article-page-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .article-page-main-title {
+    font-size: 1.5rem;
+  }
+  
+  .article-page-paragraph {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .article-page-content-header {
+    font-size: 1.4rem;
+  }
+  
+  .article-page-image {
+    max-width: 80vw;
+    max-height: 30vh;
+  }
+  
+  .article-page-profile-image-container {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .article-page-writer-info {
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+  }
+  
+  .article-page-writer-name {
+    font-size: 0.9rem;
+  }
+  
+  .article-page-content {
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-page-container {
+    width: 98%;
+    padding: 0.8rem;
+    gap: 0.8rem;
+  }
+  
+  .article-page-main-title {
+    font-size: 1.3rem;
+  }
+  
+  .article-page-paragraph {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+  
+  .article-page-content-header {
+    font-size: 1.2rem;
+  }
+  
+  .article-page-image {
+    max-width: 90vw;
+    max-height: 25vh;
+  }
+  
+  .article-page-profile-image-container {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  
+  .article-page-writer-info {
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+  }
+  
+  .article-page-writer-name {
+    font-size: 0.85rem;
+  }
+  
+  .article-page-content {
+    gap: 0.6rem;
+  }
+}

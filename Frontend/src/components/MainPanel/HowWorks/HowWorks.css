@@ -30,6 +30,24 @@
     gap: 1rem; /* Add gap between items */
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .hw-upper-container {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-top: 2.5rem;
+    }
+    
+    .hw-bottom-container {
+        width: 95%;
+        max-width: none;
+        height: auto;
+        flex-direction: row;
+        gap: 1.5rem;
+        justify-content: space-around;
+    }
+}
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .hw-upper-container {

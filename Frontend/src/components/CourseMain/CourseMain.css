@@ -50,3 +50,141 @@
     gap: 0.8rem;
     align-items: center;
 }
+
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .c-m-page {
+    width: 95%;
+    height: auto;
+    min-height: 40rem;
+    padding-right: 1.5rem;
+  }
+  
+  .c-m-information-container {
+    height: auto;
+    min-height: 5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .c-m-duration-date {
+    height: auto;
+    min-height: 3.5rem;
+    width: 95%;
+    padding-right: 1.5rem;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .c-m-duration {
+    height: auto;
+    min-height: 2.5rem;
+    padding-right: 0.8rem;
+    padding-left: 0.4rem;
+    gap: 1.2rem;
+  }
+  
+  .c-m-duration-title {
+    font-size: 0.8rem;
+  }
+  
+  .c-m-duration-inf {
+    font-size: 0.9rem;
+  }
+  
+  .c-m-navbar {
+    height: auto;
+    min-height: 5rem;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .c-m-page {
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding-right: 1rem;
+  }
+  
+  .c-m-information-container {
+    height: auto;
+    min-height: 4rem;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .c-m-duration-date {
+    height: auto;
+    min-height: 3rem;
+    width: 98%;
+    padding-right: 1rem;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem;
+  }
+  
+  .c-m-duration {
+    height: auto;
+    min-height: 2rem;
+    padding-right: 0.6rem;
+    padding-left: 0.3rem;
+    gap: 1rem;
+  }
+  
+  .c-m-duration-title {
+    font-size: 0.75rem;
+  }
+  
+  .c-m-duration-inf {
+    font-size: 0.85rem;
+  }
+  
+  .c-m-navbar {
+    height: auto;
+    min-height: 4rem;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .c-m-page {
+    padding-right: 0.8rem;
+  }
+  
+  .c-m-information-container {
+    gap: 0.6rem;
+  }
+  
+  .c-m-duration-date {
+    width: 100%;
+    padding: 0.6rem;
+    gap: 1rem;
+  }
+  
+  .c-m-duration {
+    gap: 0.8rem;
+  }
+  
+  .c-m-duration-title {
+    font-size: 0.7rem;
+  }
+  
+  .c-m-duration-inf {
+    font-size: 0.8rem;
+  }
+  
+  .c-m-navbar {
+    gap: 0.3rem;
+  }
+}

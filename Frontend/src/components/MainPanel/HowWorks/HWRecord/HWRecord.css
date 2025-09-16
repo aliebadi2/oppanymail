@@ -64,6 +64,38 @@
 
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hwr-section {
+    width: 100%;
+    max-width: 18rem;
+    height: auto;
+    min-height: 20rem;
+    padding: 1.2rem;
+  }
+
+  .hwr-image {
+    width: 11rem;
+    height: 8rem;
+  }
+
+  .hwr-title {
+    font-size: 1.9rem;
+    height: auto;
+    margin-bottom: 0.6rem;
+  }
+
+  .hwr-description {
+    font-size: 1.05rem;
+  }
+
+  .hwr-bottom-container {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .hwr-section {

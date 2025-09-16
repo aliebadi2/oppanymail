@@ -72,6 +72,25 @@
   background-color: var(--or-color);
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .primary-buttonn {
+    height: 2.5rem;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+  }
+  
+  .secondary-buttonn {
+    height: 2.5rem;
+    font-size: 1.2rem;
+    width: 5rem;
+  }
+  
+  .navbar-button-main {
+    width: 9rem;
+  }
+}
+
 /* Full Width Utility Class */
 .width-100 {
   width: 100%;

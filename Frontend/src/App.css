@@ -9,6 +9,14 @@
   min-height: 100vh;
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .App {
+    width: 95%;
+    padding: 0 1rem;
+  }
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .App {

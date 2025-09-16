@@ -78,3 +78,122 @@
 .welcome-search-button-container:hover{
     background-color: var(--dash-hover-color);
 }
+
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .welcome-section {
+    height: auto;
+    min-height: 30rem;
+  }
+  
+  .welcome-section-upper {
+    height: auto;
+    min-height: 26rem;
+    padding: 2rem 0;
+  }
+  
+  .welcome-container-upper-inner-section {
+    height: auto;
+    width: 95%;
+    gap: 2rem;
+  }
+  
+  .welcome-section-name-welcome {
+    height: auto;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  
+  .welcome-container-upper-text {
+    font-size: 2rem;
+  }
+  
+  .welcome-container-middle-container {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .welcome-search-button-container {
+    font-size: 1.3rem;
+    padding: 8px 40px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .welcome-section {
+    height: auto;
+    min-height: 25rem;
+  }
+  
+  .welcome-section-upper {
+    height: auto;
+    min-height: 21rem;
+    padding: 1.5rem 0;
+  }
+  
+  .welcome-container-upper-inner-section {
+    height: auto;
+    width: 95%;
+    gap: 1.5rem;
+  }
+  
+  .welcome-section-name-welcome {
+    height: auto;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  
+  .welcome-container-upper-text {
+    font-size: 1.5rem;
+  }
+  
+  .welcome-container-middle-container {
+    font-size: 1rem;
+    text-align: center;
+    width: 95%;
+  }
+  
+  .welcome-search-button-container {
+    font-size: 1.1rem;
+    padding: 6px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-section {
+    height: auto;
+    min-height: 20rem;
+  }
+  
+  .welcome-section-upper {
+    height: auto;
+    min-height: 16rem;
+    padding: 1rem 0;
+  }
+  
+  .welcome-container-upper-inner-section {
+    width: 98%;
+    gap: 1rem;
+  }
+  
+  .welcome-section-name-welcome {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .welcome-container-upper-text {
+    font-size: 1.2rem;
+  }
+  
+  .welcome-container-middle-container {
+    font-size: 0.9rem;
+    width: 98%;
+  }
+  
+  .welcome-search-button-container {
+    font-size: 1rem;
+    padding: 5px 25px;
+  }
+}

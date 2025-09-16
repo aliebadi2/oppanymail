@@ -54,6 +54,28 @@
     color: #C2410C;
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .choose-title {
+        font-size: 2rem;
+    }
+    .choose-explain {
+        font-size: 1.35rem;
+        width: 85%;
+    }
+    .choose-options {
+        display: flex;
+        align-items: center;
+    }
+    .choose-options-1,
+    .choose-options-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .choose-title {

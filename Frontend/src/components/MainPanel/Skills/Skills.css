@@ -113,6 +113,26 @@
 .scrollable-tabs-container svg:hover {
   color: #0F172A;
 }
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .scrollable-tabs-container {
+    width: 95%;
+    margin: 0.8rem auto;
+    padding: 0.8rem 1rem;
+  }
+  
+  .scrollable-tabs-container ul {
+    padding: 0.6rem 1rem;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+  }
+  
+  .scrollable-tabs-container a {
+    font-size: 1.1rem;
+    padding: 0.3rem 1.2rem;
+  }
+}
+
 @media(max-width: 768px){
   .scrollable-tabs-container{
     width: 100%;

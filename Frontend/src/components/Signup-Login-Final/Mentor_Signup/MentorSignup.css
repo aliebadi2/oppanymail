@@ -194,6 +194,86 @@
   border-color: rgba(255, 0, 0, 0.603) !important; /* Keep red border on hover */
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .login-page {
+    width: 90%;
+    height: auto;
+    min-height: 75vh;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .login-page-content {
+    width: 60%;
+    padding: 2.5rem 2rem;
+  }
+
+  .login-page-title {
+    margin-right: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .login-page-title-title {
+    font-size: 2.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .login-page-title-discription {
+    font-size: 1.4rem;
+  }
+
+  .login-page-image {
+    width: 40%;
+    height: 75vh;
+    border-radius: 0 1.5rem 1.5rem 0;
+  }
+
+  .step-bar {
+    width: 70%;
+  }
+
+  .resume-text-box {
+    width: 80%;
+    height: 8rem;
+    font-size: 1.1rem;
+  }
+
+  .drag-drop-container {
+    width: 80%;
+  }
+
+  .add-skill-inf-container {
+    width: 80%;
+  }
+
+  .signup-page-buttons-sss {
+    position: relative;
+    bottom: auto;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .signup-small-button,
+  .signup-big-button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .error-container-div {
+    padding: 0.6rem 2.5rem;
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .signup-waiting-text {
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+  }
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .login-page {

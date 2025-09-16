@@ -1,6 +1,7 @@
 import os
 import json
 from fastapi import APIRouter, HTTPException, Depends, UploadFile, Form, File
+from fastapi.responses import HTMLResponse
 from sqlalchemy.orm import Session
 from utils.hashing import Hash
 from utils.email_utils import send_email_validation_link, validate_email_token
@@ -159,4 +160,130 @@ def activate_account(token: str, db: Session = Depends(get_db)):
     user.email_validation = True
     db.commit()
 
-    return {"message": "Email validated successfully", "role": user.role.value}
+    # Return HTML success page instead of JSON
+    html_content = f"""
+    <!DOCTYPE html>
+    <html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>تأیید حساب - Oppany</title>
+        <style>
+            * {{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }}
+            
+            body {{
+                font-family: 'BYekan', 'Tahoma', sans-serif;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                direction: rtl;
+            }}
+            
+            .success-container {{
+                background: white;
+                padding: 2rem;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                text-align: center;
+                max-width: 400px;
+                width: 90%;
+                animation: slideUp 0.5s ease-out;
+            }}
+            
+            @keyframes slideUp {{
+                from {{
+                    opacity: 0;
+                    transform: translateY(20px);
+                }}
+                to {{
+                    opacity: 1;
+                    transform: translateY(0);
+                }}
+            }}
+            
+            .success-icon {{
+                font-size: 3rem;
+                color: #4CAF50;
+                margin-bottom: 1rem;
+            }}
+            
+            h1 {{
+                color: #333;
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }}
+            
+            .countdown {{
+                color: #667eea;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 1rem;
+            }}
+            
+            .loading-bar {{
+                width: 100%;
+                height: 3px;
+                background: #f0f0f0;
+                border-radius: 2px;
+                margin-top: 1rem;
+                overflow: hidden;
+            }}
+            
+            .loading-progress {{
+                height: 100%;
+                background: linear-gradient(135deg, #667eea, #764ba2);
+                border-radius: 2px;
+                animation: loading 3s linear forwards;
+            }}
+            
+            @keyframes loading {{
+                from {{
+                    width: 0%;
+                }}
+                to {{
+                    width: 100%;
+                }}
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="success-container">
+            <div class="success-icon">✅</div>
+            <h1>حساب شما تایید شد</h1>
+            <div class="countdown" id="countdown">در حال انتقال... (3)</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+        
+        <script>
+            let countdown = 3;
+            const countdownElement = document.getElementById('countdown');
+            
+            // Update frontend URL based on environment
+            const frontendUrl = window.location.hostname === 'localhost' ? 
+                'http://localhost:3000' : 
+                'http://154.91.170.123';
+            
+            const timer = setInterval(() => {{
+                countdown--;
+                countdownElement.textContent = `در حال انتقال... (${{countdown}})`;
+                
+                if (countdown <= 0) {{
+                    clearInterval(timer);
+                    window.location.href = frontendUrl + '/login';
+                }}
+            }}, 1000);
+        </script>
+    </body>
+    </html>
+    """
+    
+    return HTMLResponse(content=html_content)

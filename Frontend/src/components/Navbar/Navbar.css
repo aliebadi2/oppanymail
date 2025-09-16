@@ -120,3 +120,59 @@ ul {
   gap: 1rem;
 }
 
+/* Desktop and iPad Responsive Styles */
+@media (min-width: 768px) {
+  .navbarContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #BBC9D0;
+    padding: 1rem 0 0.7rem 0;
+    animation: slowFadeInSlideUp 1.5s ease-in-out forwards;
+  }
+}
+
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .navbarContainer {
+    width: 95%;
+    padding: 1rem 0 0.8rem 0;
+  }
+
+  .navbarContent {
+    width: auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .navbarLogo {
+    width: 3.2rem;
+    height: auto;
+  }
+
+  .navbarLi {
+    width: auto;
+    font-size: 1.15rem;
+    gap: 0.8rem;
+    margin: 0;
+  }
+
+  .navbar-li-content {
+    padding: 0rem 0.7rem;
+  }
+
+  .navbar-li-content a {
+    font-size: 1.15rem;
+  }
+
+  .navbar-buttons {
+    width: auto;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    flex-shrink: 0;
+  }
+}
+

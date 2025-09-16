@@ -75,3 +75,98 @@
     margin-top: 1rem;
     color: var(--dash-color);
 }
+
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .article-page-card-container {
+    width: 22rem;
+    height: 28rem;
+    padding: 0.8rem;
+  }
+  
+  .article-page-card-image-container {
+    height: 13rem;
+  }
+  
+  .article-page-card-title-container {
+    height: 4.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .article-page-card-poster-profile-image-container {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .article-page-card-poster-information-container {
+    gap: 2rem;
+  }
+  
+  .article-page-card-spec-tag {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .article-page-card-container {
+    width: 20rem;
+    height: 26rem;
+    padding: 0.6rem;
+  }
+  
+  .article-page-card-image-container {
+    height: 12rem;
+  }
+  
+  .article-page-card-title-container {
+    height: 4rem;
+    font-size: 0.9rem;
+  }
+  
+  .article-page-card-poster-profile-image-container {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  
+  .article-page-card-poster-information-container {
+    gap: 1.5rem;
+  }
+  
+  .article-page-card-spec-tag {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-page-card-container {
+    width: 18rem;
+    height: 24rem;
+    padding: 0.5rem;
+  }
+  
+  .article-page-card-image-container {
+    height: 10rem;
+  }
+  
+  .article-page-card-title-container {
+    height: 3.5rem;
+    font-size: 0.85rem;
+  }
+  
+  .article-page-card-poster-profile-image-container {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  
+  .article-page-card-poster-information-container {
+    gap: 1rem;
+  }
+  
+  .article-page-card-spec-tag {
+    font-size: 0.65rem;
+    padding: 2px 5px;
+  }
+}

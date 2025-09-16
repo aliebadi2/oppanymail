@@ -25,6 +25,18 @@
   align-items: center;
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .main-panel-page {
+    width: 95%;
+    padding: 0 1rem;
+  }
+  .section {
+    width: 95%;
+    padding: 0 1.5rem;
+  }
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .main-panel-page {

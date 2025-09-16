@@ -139,6 +139,62 @@
   margin: 0;
 }
 
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .mentor-card {
+    width: 100%;
+    max-width: 28rem;
+    height: auto;
+    min-height: 21rem;
+    padding: 10px;
+  }
+
+  .mentor-card-inner {
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .mentor-card-image-container {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .mentor-card-image-container img {
+    width: 5.5rem;
+  }
+
+  .mentor-card-details {
+    margin-left: 10px;
+    gap: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  .mentor-card-details h2 {
+    font-size: 1.4rem;
+  }
+
+  .mentor-card-skills {
+    margin-top: 10px;
+    gap: 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .mentor-card-skill {
+    padding: 9px 18px;
+    font-size: 1.05rem;
+  }
+
+  .mentor-card-main-container {
+    flex-direction: row;
+    gap: 0.4rem;
+  }
+
+  .mentor-card-comp-container {
+    width: 50%;
+    gap: 0.3rem;
+  }
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .mentor-card {

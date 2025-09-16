@@ -10,3 +10,39 @@
     flex-grow: 1;
     padding: 2rem;  
 }
+
+/* iPad Responsive Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .admin-panel {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .admin-panel-content {
+    width: 100%;
+    padding: 1.5rem;
+    order: 1;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .admin-panel {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .admin-panel-content {
+    width: 100%;
+    padding: 1rem;
+    order: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-panel-content {
+    padding: 0.8rem;
+  }
+}
