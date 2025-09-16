@@ -114,34 +114,43 @@
   color: #0F172A;
 }
 @media(max-width: 768px){
-
   .scrollable-tabs-container{
     width: 100%;
-  }
-  .scrollable-tabs-container .right-arrow{
-    display: none;
-  }
-  .scrollable-tabs-container .left-arrow{
-    display: none;
-  }
-  .scrollable-tabs-container ul{
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-right: 0.2rem;
-  }
-  .scrollable-tabs-container {
+    margin: 0.5rem auto;
     padding: 0.5rem 0.75rem;
-    font-size: 1.2rem;
   }
-  .left-arrow{
+  
+  .scrollable-tabs-container .right-arrow,
+  .scrollable-tabs-container .left-arrow {
     display: none;
   }
-  .scrollable-tabs-container .right-arrow.active, .scrollable-tabs-container .left-arrow.active {
-    display: none;
+  
+  .scrollable-tabs-container ul{
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+  }
+  
+  .scrollable-tabs-container a {
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+  }
 }
+
+@media(max-width: 480px){
   .scrollable-tabs-container{
-    margin-top: 0;
-    
+    margin: 0.25rem auto;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .scrollable-tabs-container ul{
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+  }
+  
+  .scrollable-tabs-container a {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.8rem;
   }
 }

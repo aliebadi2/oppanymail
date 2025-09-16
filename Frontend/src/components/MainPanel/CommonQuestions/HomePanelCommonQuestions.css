@@ -14,4 +14,25 @@
   font-size: 3rem;
   font-weight: 400;
   
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .question-section-container {
+    padding-bottom: 3rem;
+  }
+
+  .question-section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .question-section-container {
+    padding-bottom: 2rem;
+  }
+
+  .question-section-title {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=Questions.css.map */

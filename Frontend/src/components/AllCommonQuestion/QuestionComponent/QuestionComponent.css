@@ -30,4 +30,29 @@
   font-size: 1rem;
   font-weight: 100;
   transition: height 0.3s ease;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .question-box {
+    width: 90%;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .question-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .question-box {
+    width: 95%;
+    padding: 0 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .question-title {
+    font-size: 1.1rem;
+  }
 }/*# sourceMappingURL=Question.css.map */
