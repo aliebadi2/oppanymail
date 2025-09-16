@@ -23,7 +23,7 @@ function AdminCommonQuestions() {
 
   const fetchQuestions = async () => {
     try {
-      const response = await axios.get(`${config.path}/admin/common-questions`, {
+      const response = await axios.get(`${config.path}/admin/common-questions/`, {
         withCredentials: true,
       });
       setQuestions(response.data);
@@ -36,7 +36,7 @@ function AdminCommonQuestions() {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`${config.path}/admin/common-questions/${id}`, {
+      await axios.delete(`${config.path}/admin/common-questions/${id}/`, {
         withCredentials: true,
       });
       setQuestions(questions.filter((q) => q.id !== id));
@@ -47,7 +47,7 @@ function AdminCommonQuestions() {
 
   const toggleFlag = async (id) => {
     try {
-      await axios.put(`${config.path}/admin/common-questions/${id}/toggle_flag`, {}, {
+      await axios.put(`${config.path}/admin/common-questions/${id}/toggle_flag/`, {}, {
         withCredentials: true,
       });
       fetchQuestions();
@@ -75,12 +75,12 @@ function AdminCommonQuestions() {
   const handleSubmit = async () => {
     try {
       if (modalType === "add") {
-        await axios.post(`${config.path}/admin/common-questions`, currentQuestion, {
+        await axios.post(`${config.path}/admin/common-questions/`, currentQuestion, {
           withCredentials: true,
         });
       } else {
         await axios.put(
-          `${config.path}/admin/common-questions/${currentQuestion.id}`,
+          `${config.path}/admin/common-questions/${currentQuestion.id}/`,
           currentQuestion,
           { withCredentials: true }
         );
