@@ -1,0 +1,65 @@
+.hwr-section {
+    width: 19.438rem;
+    height: 22.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    direction: rtl;
+    color: #263137;
+    border-radius: 15px;
+    transition: background-color 1s ease; /* Added transition property */
+}
+
+.hwr-section:hover {
+    background: #BFDBFE;
+    animation: bounce 0.8s ease;
+}
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+    100% {
+      transform: scale();
+    }
+  }
+.hwr-section:hover .hwr-image{
+    color: white;
+}
+.hwr-icon{
+    fill: white;
+}
+
+.hwr-image{
+    width: 12.5rem;
+    height: 8.591rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+.hwr-title{
+    font-size: 2.25rem;
+    font-weight: 400;
+    height: 3.875rem;
+}
+.hwr-description{
+    
+    font-size: 1.125rem;
+    text-align: center;
+}
+.hwr-bottom-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18.188rem;
+    height: 8.375rem;
+    justify-content: star;
+
+}

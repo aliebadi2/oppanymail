@@ -1,0 +1,46 @@
+.menu-item-container {
+    height: 3.25rem;
+    display: flex;
+    padding: 0 0.313rem 0 0.313rem;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-item-inner-container {
+    height: 2.438rem;
+    padding: 3px 7px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu-item-inner-line-container {
+    height: 0.8rem;
+    padding: 6px 8px;
+}
+
+.menu-item-inner-line {
+    border: 2px solid #F29E3A; /* Only shown if selected */
+}
+
+.menu-item-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.menu-item-inner-container .selected {
+    color: #F29E3A; /* Selected state color */
+}
+
+.menu-item-inner-container .unselected {
+    color: #808080; /* Unselected state color */
+}
+
+/* Optional: if you want to apply specific styles to the icon as well */
+img.selected {
+    filter: none; /* Keep original colors */
+}
+
+img.unselected {
+    filter: grayscale(100%) brightness(60%); /* Make the icon gray */
+}

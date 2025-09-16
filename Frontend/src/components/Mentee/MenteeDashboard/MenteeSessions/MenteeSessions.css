@@ -1,0 +1,68 @@
+.mentee-session-container {
+    font-family: "Yekan";
+    margin: 2rem auto;
+    width: 95%;
+    text-align: center;
+  }
+  
+  .mentee-session-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2c71c6;
+  }
+  
+  .mentee-session-table-container {
+    overflow-x: auto; /* For horizontal scrolling on smaller screens */
+  }
+  
+  .mentee-session-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mentee-session-table th,
+  .mentee-session-table td {
+    padding: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .mentee-session-table th {
+    background-color: #2c71c6;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .mentee-session-table td {
+    color: #757575;
+    font-weight: 400;
+  }
+  
+  .mentee-session-table td button {
+    background-color: #3A8EEF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .mentee-session-table td button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .mentee-session-table th,
+    .mentee-session-table td {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .mentee-session-table td button {
+      padding: 4px 8px;
+    }
+  }
+  

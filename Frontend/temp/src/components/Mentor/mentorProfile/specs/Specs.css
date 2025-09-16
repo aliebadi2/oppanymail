@@ -1,0 +1,30 @@
+.specs-container{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    font-family: "Yekan";
+    align-items: start;
+    height: auto;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    
+}
+.specs-container-title{
+    font-size: 2.25rem;
+    color: blue-gray/900;
+}
+.specs-container-records{
+    height: auto;
+    width: 90%;
+    display: flex;
+    margin-top: 3vh;
+    flex-wrap: wrap; 
+    gap: 1rem;
+}
+
+@media (max-width: 768px){
+    .specs-container{
+        margin-right: 3rem;
+
+    }
+}

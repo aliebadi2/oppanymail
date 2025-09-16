@@ -1,0 +1,12 @@
+.spectag_container {
+    height: auto;
+    background-color: #F1F5F9;
+    border-radius: 1.563rem;
+    font-size: 1rem;
+    color: #1E293B;
+    font-weight: 400;
+    padding:  0  20px;
+    align-items: center;
+    height: 2.375rem;
+    margin: 0;
+  }

@@ -1,0 +1,76 @@
+.m-t-i-container{
+    height: 11rem;
+    width: 17rem;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #A3A5AD33;
+    font-family: "Yekan";
+}
+.m-t-i-edit-level-container{
+    width: 98%;
+    height: 2rem;
+    background-color: #3A8EEF26;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    
+
+}
+.m-t-i-fisrt-level-container{
+    padding: 3px 10px 3px 10px;
+    font-size: 0.875rem;
+}
+.m-t-i-edit-tools-container{
+    padding: 3px 10px 3px 10px;
+    display: flex;
+    gap: 0.688rem;
+}
+.m-t-i-edit-tools-container button{
+    background: none;
+}
+.m-t-i-level-section{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1rem;
+    font-family: "Yekan";
+    height: 2rem;
+}
+
+.m-t-i-level-section label{
+    cursor: pointer;
+    display: flex;
+}
+.m-t-i-level-section input[type="checkbox"]{
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.m-t-i-level-section label::before{
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000000;
+    margin-left: 0.5rem;
+}
+.m-t-i-level-section label:hover::before
+.m-t-i-level-section input[type='checkbox']:hover + label::befor{
+    background-color: #dfdfdf;
+}
+.m-t-i-level-section input[type='checkbox']:checked + label::befor{
+    background-color: aqua;
+    content: "/002714";
+}
+
+.m-t-i-explain{
+    height: 4.75rem;
+    width: 98%;
+    display: flex;
+    justify-content: start;
+    font-weight: 500;
+    font-size: 0.875rem;
+}

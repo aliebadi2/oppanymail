@@ -1,0 +1,81 @@
+/* drag-drop.css */
+.drag-drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #ea580c;
+    border-radius: 1rem;
+    background: #f9f9f9;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .document-uploader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .upload-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  
+  .upload-info svg {
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  
+  .browse-btn {
+    margin: 0 0.5rem 0 0.5rem;    
+    color: #ea580c;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .browse-btn:hover {
+    color: #e77b42;
+  }
+  
+  .file-list {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .file-list__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .file-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .file-actions {
+    cursor: pointer;
+  }
+  
+  .success-file {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: #6dc24b;
+  }
+  

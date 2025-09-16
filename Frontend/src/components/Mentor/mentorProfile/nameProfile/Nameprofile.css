@@ -1,0 +1,234 @@
+.n-p-container {
+    width: 100%;
+    height: 39rem;
+    direction: rtl;
+    position: relative;
+    font-family: "Yekan";
+}
+
+.n-p-background-container {
+    width: 100%;
+    height: 15.125rem;
+    background-color: #02127ed6;
+    animation: fadeInBackground 1.5s ease-in-out; /* Add fade-in animation */
+}
+
+.n-p-information-container {
+    width: 50%;
+    position: absolute;
+    top: 6.563rem;
+    right: 5.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    animation: fadeIn 1.5s ease-in-out; /* Add fade-in animation */
+}
+
+.n-p-information-image-container {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.n-p-information-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    animation: zoomIn 1s ease-in-out; /* Add zoom-in animation */
+}
+
+.n-p-information-name {
+    padding: 1rem 0rem 0.4rem 1rem;
+    font-size: 2rem;
+    color: #0F172A;
+    margin-right: 2.5rem;
+    animation: fadeInUp 1s ease-in-out; /* Add fade-in from bottom animation */
+}
+
+.n-p-information-exp-orange {
+    color: #475569;
+}
+
+.n-p-information-exp-gray {
+    color: #475569;
+}
+
+.n-p-information-exp-texts {
+    font-size: 1.4rem;
+}
+
+.n-p-information-explanation {
+    color: #97a09a;
+    font-size: 1.125rem;
+}
+
+.n-p-information-additional {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    gap: 0.5rem;
+}
+
+.n-p-information-save-button {
+    padding: 0.4rem 1rem 0.2rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #f5f5f5;
+    font-family: "Yekan";
+    background-color: #2a7fffdf;
+    border: none;
+    width: 20rem;
+    height: 2.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for hover */
+}
+
+.n-p-information-save-button:hover {
+    background-color: #1d64d8; /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.n-p-stars-con {
+    position: absolute;
+    top: 5rem;
+    right: 15rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: white;
+    display: flex;
+    gap: 0.6rem;
+    border-radius: 1rem;
+    align-items: center;
+    animation: fadeInStars 1.5s ease-in-out; /* Add fade-in animation */
+}
+
+.n-p-information-separator {
+    width: 100%;
+    height: 1px;
+    background-color: #636363;
+    margin: 0.5rem 0;
+}
+
+.job-icon,
+.company-icon,
+.location-icon {
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.n-p-location-about {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.n-p-information-location {
+    font-size: 1.3rem;
+    color: #475569;
+    display: flex;
+    align-items: center;
+}
+
+.n-p-information-about {
+    font-size: 1.3rem;
+    color: #000000;
+    margin-top: 0.5rem;
+    white-space: pre-wrap;
+}
+
+.info-degree-profile-mentor-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+}
+
+.info-mentor-profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.degree-mentor-profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInBackground {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInStars {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .n-p-information-container {
+        right: 0;
+        align-items: center;
+    }
+    .n-p-stars-con span {
+        display: none;
+    }
+    .n-p-stars-con {
+        top: 18rem;
+    }
+    .n-p-information-additional {
+        justify-content: start;
+        width: 100%;
+        padding-right: 3rem;
+    }
+    .n-p-information-save-button {
+        margin-right: 15rem;
+    }
+}

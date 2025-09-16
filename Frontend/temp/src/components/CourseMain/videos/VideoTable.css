@@ -1,0 +1,46 @@
+.mentee-video-table-container {
+    width: 95%;
+    overflow-x: auto; /* Ensures horizontal scroll on smaller screens */
+    font-family: "Yekan";
+    margin-top: 2rem;
+}
+
+.mentee-responsive-table {
+    width: 100%;
+    border-collapse: collapse; /* Removes default table borders */
+}
+
+.mentee-responsive-table th,
+.mentee-responsive-table td {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    text-align: center; /* Centers text horizontally */
+    vertical-align: middle; /* Centers content vertically */
+}
+
+.mentee-responsive-table td {
+    color: #757575;
+    font-weight: 400;
+}
+
+.mentee-responsive-table th {
+    background-color: #2C71C6; /* Light background for headers */
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.mentee-responsive-table td .download-button {
+    background-color: #3A8EEF; /* Example button styling */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 78%;
+}
+
+.mentee-responsive-table td .download-button:hover {
+    background-color: var(--dash-hover-color); /* Darker button on hover */
+}
+
+/* Responsive adjustments */

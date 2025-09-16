@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial, sans-serif";
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1e2b381d; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-text {
+  color: rgb(31, 116, 235);
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-transform: lowercase;
+  font-weight: bold;
+  animation: pulse 1s infinite;
+}
+
+.loading-bar {
+  width: 80%;
+  max-width: 600px;
+  height: 1.5em;
+  background-color: #004d64;
+  border-radius: 3em;
+  overflow: hidden;
+  border: 0.2em solid rgb(31, 116, 235);
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: rgb(31, 116, 235);
+  animation: loading 1.5s infinite ease-in-out;
+  border-radius: 3em;
+}
+
+/* Loading bar animation */
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 90%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+/* Pulse animation for the text */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}

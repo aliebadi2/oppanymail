@@ -1,0 +1,67 @@
+/* General styles for larger screens */
+.hw-section {
+    direction: rtl;
+    width: 100%;
+    height: auto; /* Adjust height to auto to fit content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Yekan';
+    background-color: #FAFAF9;
+    margin-bottom: 3rem;
+    padding: 2rem; /* Add padding for better spacing */
+    cursor: pointer;
+}
+
+.hw-upper-container {
+    font-size: 2.25rem;
+    line-height: 3.886rem;
+    margin-top: 3rem;
+    text-align: center; /* Center-align text for better appearance */
+}
+
+.hw-bottom-container {
+    margin-top: 3rem;
+    width: 80%; /* Adjust width to be responsive */
+    max-width: 69.688rem; /* Set max-width for larger screens */
+    height: auto; /* Adjust height to auto to fit content */
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; /* Add gap between items */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .hw-upper-container {
+        font-size: 1.75rem; /* Smaller font size */
+        line-height: 2.75rem; /* Adjust line-height for smaller text */
+        margin-top: 2rem; /* Adjust margin for smaller screens */
+    }
+
+    .hw-bottom-container {
+        width: 90%; /* Full width for smaller screens */
+        max-width: none; /* Remove max-width constraint */
+        height: auto; /* Adjust height to fit content */
+        flex-direction: column; /* Stack items vertically */
+        gap: 0.5rem; /* Adjust gap between items */
+    }
+}
+
+@media (max-width: 550px) {
+    .hw-upper-container {
+        font-size: 1.5rem; /* Even smaller font size */
+        line-height: 2.25rem; /* Adjust line-height */
+        margin-top: 1.5rem; /* Reduce margin for smaller screens */
+        display: flex;
+        
+    }
+
+    .hw-bottom-container {
+        width: 100%; /* Full width */
+        height: auto; /* Adjust height to fit content */
+        flex-direction: column; /* Stack items vertically */
+        gap: 0.5rem; /* Add gap between items */
+        flex-direction: column;
+        align-items: center;
+    }
+}

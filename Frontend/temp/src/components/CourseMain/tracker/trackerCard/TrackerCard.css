@@ -1,0 +1,61 @@
+/* Container for all types */
+.t-c-1-container {
+    width: 17rem;
+    height: 11rem;
+    border-radius: 10px;
+    border: 1px solid #A3A5AD33;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Yekan';
+}
+
+/* Specific styling for type3 */
+.t-c-1-container.t-c-gray {
+    background-color: #75757526;
+    border: 1px solid #A3A5AD;
+}
+
+/* Level container styling (shared across all types) */
+.t-c-level-container {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A8EEF26;
+    height: 2rem;
+    font-size: 0.875rem; /* Add unit for font-size */
+}
+
+/* Text containers */
+.t-c-level-text-container {
+    padding-right: 1rem;
+}
+
+.t-c-level-text {}
+
+.t-c-level-text2 {
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Yekan';
+}
+
+.t-c-activation-text-container {
+    padding-left: 1rem;
+}
+
+/* Main level container */
+.t-c-main-level-container {
+    width: 90%;
+}
+
+.t-c-main-level-text-container {
+    padding: 11px 0px 11px 13px;
+}
+
+/* Explanation container */
+.t-c-explain-container {
+    width: 90%;
+    font-size: 0.875rem;
+    font-weight: 500;
+}

@@ -1,0 +1,94 @@
+.error-message {
+  color: rgba(3, 3, 3, 0.268);
+  font-size: 1rem;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 1%;
+  cursor: alias;
+  margin: 0;
+}
+
+.success-message {
+  color: green;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.step-bar-container-mentee {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.step-bar-mentee {
+  width: 20%;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-line-mentee {
+  width: 90%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.orange-bg {
+  background-color: #ea580c;
+}
+
+.green-bg {
+  background-color: #4D7C0F;
+}
+
+
+.mentor-signup-link {
+  position: absolute;
+  bottom: 4%;
+  text-align: center;
+  width: 60%;
+}
+
+.mentor-signup-link p {
+  font-size: 1rem;
+  color: #64748B;
+}
+
+.mentor-signup-link a {
+  font-size: 1rem;
+  color: #ea580c;
+  /* Orange color for the link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mentor-signup-link a:hover {
+  color: #fc8f09;
+  /* Change color to green on hover */
+  text-decoration: none;
+  /* Add underline on hover */
+}
+.error-container-div{
+  background-color: rgba(255, 149, 149, 0.651);
+  padding: 0.2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rem;
+}
+
+.mentee-signup-page-buttons {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 10%;
+  margin-bottom: 1rem;
+}

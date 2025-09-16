@@ -1,0 +1,22 @@
+@keyframes slowFadeInSlideUp {
+  from {
+    transform: translateY(20px); /* Subtle slide-up from 20px */
+    opacity: 0; /* Fully transparent at the start */
+  }
+  to {
+    transform: translateY(0); /* No translation at the end */
+    opacity: 1; /* Fully opaque at the end */
+  }
+}
+
+.mentee-welcome {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Yekan";
+    width: 100%;
+
+    /* Adding the same slow fade-in and slide-up animation */
+    animation: slowFadeInSlideUp 1.5s ease-in-out forwards;
+}

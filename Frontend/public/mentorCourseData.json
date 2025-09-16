@@ -1,0 +1,80 @@
+{
+  "mentorName": "محمد جعفری",
+  "activation":true,
+  "menteeName": "علی رضاپور",
+  "startDate": "۱۴۰۲/۰۱/۲۸",
+  "paymentAmount": "۰ تومان",
+  "timeLeft": "۱ روز دیگر",
+  "dateOfEnd": "۱۴۰۲/۰۲/۱۰",
+  "nowLevel": 1,
+  
+  "listOfMilestones": [
+    {
+      "id": 1,
+      "title": "آشنایی با اصول اولیه",
+      "text": "شناخت اصول اولیه محصول",
+      "type": "type1",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "title": "برنامه‌ریزی پروژه",
+      "text": "آموزش نحوه برنامه‌ریزی پروژه",
+      "type": "type2",
+      "level": 2
+    },
+    {
+      "id": 3,
+      "title": "تکمیل پروژه اولیه",
+      "text": "تکمیل اولین پروژه عملی",
+      "type": "type3",
+      "level": 3
+    }
+  ],
+  "listOfProjects": [
+    {
+      "nameOfProject": "مدیریت وب‌سایت",
+      "explanation": "پیاده‌سازی سیستم مدیریت محتوا برای وب‌سایت شرکتی",
+      "operation": "در حال انجام",
+      "downloadLink": "https://example.com/project1"
+    },
+    {
+      "nameOfProject": "سیستم گزارش‌دهی",
+      "explanation": "ایجاد سیستم گزارش‌دهی برای داده‌های فروش",
+      "operation": "تکمیل شده",
+      "downloadLink": "https://e.com/project2"
+    }
+  ],
+  "listOfWebinars": [
+    {
+      "webinarName": "مقدمه‌ای بر مدیریت پروژه",
+      "dateAndTime": "۱۴۰۲/۰۲/۰۵ ساعت ۱۴:۰۰",
+      "webinarLink": "https://example.com/webinar1"
+    },
+    {
+      "webinarName": "اصول طراحی نرم‌افزار",
+      "dateAndTime": "۱۴۰۲/۰۲/۱۰ ساعت ۱۶:۰۰",
+      "webinarLink": "https://example.com/webinar2"
+    }
+  ],
+  "listOfVideos": [
+    {
+      "titleOfVideo": "آموزش مفاهیم اولیه",
+      "downloadLink": "https://google.com/"
+    },
+    {
+      "titleOfVideo": "آموزش پیشرفته",
+      "downloadLink": "https://example.com/video2"
+    }
+  ],
+  "listOfFiles": [
+    {
+      "fileTitle": "راهنمای کاربر",
+      "fileDownloadLink": "https://example.com/file1"
+    },
+    {
+      "fileTitle": "نمونه پروژه",
+      "fileDownloadLink": "https://example.com/file2"
+    }
+  ]
+}

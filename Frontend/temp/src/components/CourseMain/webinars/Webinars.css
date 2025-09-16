@@ -1,0 +1,67 @@
+.webinars-container {
+    width: 95%;
+    overflow-x: auto; /* Ensures horizontal scroll on smaller screens */
+    font-family: "Yekan";
+    margin-top: 2rem;
+}
+
+.webinars-responsive-table {
+    width: 100%;
+    border-collapse: collapse; /* Removes default table borders */
+}
+
+.webinars-responsive-table th,
+.webinars-responsive-table td {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    text-align: center; /* Centers text horizontally */
+    vertical-align: middle; /* Centers content vertically */
+}
+
+.webinars-responsive-table td {
+    color: #757575;
+    font-weight: 400;
+}
+
+.webinars-responsive-table th {
+    background-color: #2C71C6; /* Background for headers */
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.webinars-responsive-table td button {
+    background-color: #3A8EEF; /* Button styling */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 78%;
+}
+
+.webinars-responsive-table td button:hover {
+    background-color: #45a049; /* Darker button on hover */
+}
+
+
+.webinars-connect-button {
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: var(--dash-color);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .webinars-connect-button:hover {
+    background-color: var(--dash-hover-color);
+  }
+  
+
+
+
+

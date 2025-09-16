@@ -1,0 +1,62 @@
+.guide-comp-conainer{
+    width: 25rem;
+    height: 29.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+    font-family: "Yekan";
+    border: 0.93px solid #E1E0E0;
+}
+.guide-comp-upper-conainer{
+    width: 100%;
+    height: 6.678rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.525rem;
+}
+.guide-comp-upper-header{
+    font-size: 1.399rem;
+    width: 8.257rem;
+    height: 2.188;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.guide-comp-upper-under-header{
+    height: 1.312rem;
+    color: #B3B3B3;
+    font-size: 0.875rem;
+}
+.guide-comp-bottom-conainer{
+    width: 100%;
+    height: 23.01rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    border-top: 1px solid var(--dash-color);
+}
+.guide-comp-item-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.guide-comp-bottom-button{
+    font-size: 0.688rem;
+    color: #B3B3B3;
+    background: var(--dash-color);
+    border-radius: 10px;
+    border: none;
+}
+
+
+.guide-comp-bottom-button:hover{
+    background-color: var(--dash-hover-color);
+}

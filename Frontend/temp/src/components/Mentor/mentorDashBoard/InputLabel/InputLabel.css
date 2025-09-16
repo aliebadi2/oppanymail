@@ -1,0 +1,60 @@
+.inputl-container {
+    width: 19rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    font-family: "Yekan";
+    align-items: center;
+}
+
+.inputl-inner-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputl-label-container {
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+    height: 2.188rem;
+    width: 20.625rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.edit-button {
+    background-color: var(--dash-color);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Yekan";
+    font-size: 0.875rem;
+    width: 4rem;
+    height: 40px;
+  
+}
+
+.editable-input-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+
+@media (max-width: 768px) {
+    .inputl-container {
+        width: 100%;
+    }
+    .inputl-inner-container {
+        width: 90%;
+    }
+    .inputl-label-container {
+        width: 90%;
+    }
+    .edit-button {
+        width: 100%;
+    }
+}

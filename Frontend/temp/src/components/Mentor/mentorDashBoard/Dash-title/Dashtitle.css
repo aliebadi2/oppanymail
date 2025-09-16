@@ -1,0 +1,80 @@
+.dash-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 12.25rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.dash-title-text {
+  font-weight: 150;
+  font-size: 2rem;
+}/*# sourceMappingURL=Dashtitle.css.map */
+.dash-title-button{
+  padding: 7px 10px 7px 10px;
+  background-color: var(--dash-color);
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  font-family: "Yekan";
+  font-size: 1rem;
+  cursor: pointer;
+}
+.dash-title-button:hover{
+  background-color: var(--dash-hover-color);
+}
+.dropdown-menu{
+  padding: 10px 0;
+  border-radius: 10px;
+  position: absolute;
+  background-color: white;
+  top: 100%;
+  width: 100%;
+
+}
+.dash-title-button-container{
+  position: relative;
+}
+.dropdown-menu li{
+  height: 2rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.dropdown-menu li:hover{
+  background-color: #E1EEFD;
+}
+.dropdown-menu ul{
+  gap: 5px;
+  color: #757575;
+  font-weight: 500;
+  
+}
+
+
+@media (max-width: 1000px){
+  .dash-title-text{
+    font-size: 1.5rem;
+    width: 80%;
+  }
+ 
+
+}
+@media (max-width: 768px){
+  .dash-title-text{
+    font-size: 1rem;
+    margin-right: 2rem;
+  }
+  .dash-title-container {
+    
+    width: 100%;
+    height: 12.25rem;
+    
+  }
+
+}

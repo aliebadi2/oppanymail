@@ -1,0 +1,109 @@
+.cr-section {
+    width: 20.313rem;
+    height: 22rem; /* Set to auto so it grows as necessary */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    direction: rtl;
+    color: #252422;
+    border: 1px solid #F5BBA380;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(252, 186, 124, 0.32);
+    font-family: "Yekan";
+    background-color: white;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cr-upper-container {
+    height: 4.688rem;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.cr-upper-image-container {
+    height: 4.688rem;
+    width: 4.688rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.cr-upper-image {
+    width: 4.688rem;
+    height: auto;
+}
+
+.cr-upper-name-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-right: 0.5rem;
+}
+
+.cr-upper-name-container-name {
+    font-size: 1.125rem;
+    font-weight: bold; /* Emphasize the name */
+}
+
+.cr-upper-name-container-mentor {
+    font-size: 1rem;
+    color: #666; /* Slightly lighter for mentor text */
+}
+
+.cr-bottom-container {
+    font-size: 1.125rem;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cr-bottom-text {
+    text-wrap: nowrap;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+/* Star container below the comment text */
+.cr-stars-container {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem; /* Small gap between stars */
+}
+
+/* Filled stars */
+.filled-star {
+    color: #FFD700;
+    font-size: 1.25rem;
+}
+
+/* Empty stars */
+.empty-star {
+    color: #ccc;
+    font-size: 1.25rem;
+}
+
+/* Date container for the comment */
+.cr-date {
+    font-size: 0.875rem;
+    color: #999; /* Lighter color for the date */
+    text-align: left; /* Align date to the left */
+    display: flex;
+    align-items: center;
+    
+}
+
+.cd-date-time-container{
+    display: flex;
+    width: 75%;
+    position: absolute;
+    bottom: 3%;
+    justify-content: space-between;
+}

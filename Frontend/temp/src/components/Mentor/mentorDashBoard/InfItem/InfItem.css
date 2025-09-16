@@ -1,0 +1,23 @@
+.inf-item-section{
+    display: flex;
+    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+    direction: rtl;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    gap: 0.6rem;
+}
+.inf-item-icon{
+    
+
+}
+.inf-item-title{
+    color: #3A8EEF;
+    
+    
+}
+
+.inf-item-information{
+    margin-right: 0.3rem;
+}

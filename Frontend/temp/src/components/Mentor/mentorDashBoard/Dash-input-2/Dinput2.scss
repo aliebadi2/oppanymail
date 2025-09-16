@@ -1,0 +1,36 @@
+.d-input-2-field-container {
+    margin: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 18.75rem;
+    height: 1.9rem;
+    font-size: 1.25rem;
+    border: 2px solid #757575;
+    border-radius: 5px;
+    padding: 0 1rem 0.3rem 1rem;
+    color: #00000080;
+
+  }
+  .d-input-2-field-unit{
+    border-right: 2px solid #757575;
+    padding: 2px;
+    width: 3rem;
+    height: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-field {
+    outline: none;
+    background-color: transparent;
+    border: 0px solid;
+    font-family: "Yekan";
+  
+    font-size: 1.25rem;
+    color: #00000080;
+    width: 80%;
+  }

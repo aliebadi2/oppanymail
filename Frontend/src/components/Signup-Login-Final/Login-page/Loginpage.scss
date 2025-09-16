@@ -1,0 +1,134 @@
+.login-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 44rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    box-shadow: 0px 16px 24px 0px #00000052;
+
+    
+
+    margin-bottom: 3rem;
+    
+}
+.login-page-content{
+  width: 60%;
+.login-page-title{
+    margin-right: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.login-page-title-title{
+  margin-bottom: 0.3rem;
+  font-size: 2.25rem;
+  font-weight: 200;
+}
+.login-page-title-discription{
+  margin-top: 0rem;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+}
+.login-page-image{
+width: 40%;
+height: 44rem;
+border-radius: 1.5rem 0 0 1.5rem;
+}
+.login-page-input-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.user-selector{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 0.6s;
+    width: 25%;
+    ul{
+      display: flex;
+      flex-direction: row;
+      
+    }
+    li{
+      border-bottom: 2px solid rgba(0, 0, 0, 0.162);
+      padding-bottom: 0.75rem;
+      font-size: 1rem;
+      cursor: pointer;
+      
+
+      &:hover{
+        border-bottom: 2px solid #F37272;
+        
+      }
+      &:active{
+        border-bottom: 2px solid #F37272;
+      }
+      .active{
+        border-bottom: 2px solid #F37272;
+      }
+    }
+    a{
+        margin: 0 3rem 0 3rem;
+        text-decoration: none;
+        color: #251e1e;
+        font-size: 1.2rem;
+    
+    }}
+    
+.login-page-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+  .login-page-buttons{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+.button-seprator{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 88%;
+    height: 4rem;
+    
+}
+
+.login-page-sign-up-link{
+
+margin: 0;
+font-size: 1.2rem;
+    a{
+        text-decoration: none;
+        color: #F37272;
+      
+    }
+}
+.login-page-links{
+  margin-top: 1.5rem;
+}
+.line{
+  margin:0 9px ;
+  width: 25%;
+  height: 1.6px;
+  background-color:#00000026;
+}

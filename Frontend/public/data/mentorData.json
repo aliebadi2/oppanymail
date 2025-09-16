@@ -1,0 +1,27 @@
+{
+    "mentorInfo": {
+      "name": "John",
+      "family_name": "Doe",
+      "email": "john.doe@example.com",
+      "phone_number": "+123456789",
+      "degree": "master",
+      "university": "Oxford University",
+      "field_study": "Computer Science",
+      "city": "London",
+      "country": "UK",
+      "cv_file_path": "/path/to/cv",
+      "info": "Experienced mentor in software engineering.",
+      "profile_path": "/path/to/profile",
+      "job": "Senior Software Engineer",
+      "company": "TechCorp",
+      "skills": ["React", "Django", "Machine Learning"]
+    },
+    "skillTypes": [
+      { "id": 1, "name": "React" },
+      { "id": 2, "name": "Django" },
+      { "id": 3, "name": "Machine Learning" },
+      { "id": 4, "name": "Cloud Computing" },
+      { "id": 5, "name": "Data Analysis" }
+    ]
+  }
+  

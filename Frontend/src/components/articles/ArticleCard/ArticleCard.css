@@ -1,0 +1,77 @@
+.article-page-card-container {
+    width: 24.5rem;
+    height: 30.5rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 12px;
+    border: 1px solid #E8E8EA;
+}
+
+.article-page-card-image-container {
+    height: 15rem;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.article-page-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.article-page-card-title-container {
+    height: 5.25rem;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    margin: 0.2rem 0;
+}
+
+.article-page-card-poster-information {
+    display: flex;
+    gap: 0.7rem;
+    position: absolute;
+    bottom: 3%;
+}
+
+.article-page-card-poster-profile-image-container {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-page-card-poster-profile-image {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-page-card-poster-name {
+    color: #97989F;
+    align-self: center;
+}
+
+.article-page-card-poster-information-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.article-page-card-spec-tag {
+    display: inline;
+    width: fit-content;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 0.8rem;
+    background-color: #eeeeee53;
+    margin-top: 1rem;
+    color: var(--dash-color);
+}

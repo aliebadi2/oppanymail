@@ -1,0 +1,29 @@
+/* The outer switch container */
+.switch {
+    width: 50px;
+    height: 24px;
+    background-color: gray; /* Default state color */
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px;
+    transition: background-color 0.3s ease, justify-content 0.3s ease;
+  }
+  
+  /* The switch handle (inner circle) */
+  .switch-handle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Toggled state */
+  .switch.toggled {
+    background-color: yellow; /* Toggled state color */
+    justify-content: flex-end;
+  }
+  

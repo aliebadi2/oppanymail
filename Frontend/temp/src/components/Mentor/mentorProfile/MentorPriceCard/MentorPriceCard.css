@@ -1,0 +1,111 @@
+.mentor-price-card-container{
+    width: 420px;
+    height: 570px;
+    border: 3px solid rgb(225, 225, 225);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: rgb(100 116 139 / 1) ;
+    position: relative;
+    background-color: white;
+
+}
+.mentor-price-card-session-or-plan{
+    height: 10%;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    display: flex;
+    width: 100%;
+}
+.mentor-price-card-plans{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.mentor-price-card-plans-list {
+    display: flex;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 15px;
+    overflow: hidden;
+    
+    
+    
+  }
+  
+.mentor-price-card-plan-item {
+padding: 10px 30px 10px 30px;
+cursor: pointer;
+border: 1px solid transparent;
+transition: background-color 0.3s, border-color 0.3s;
+border-radius: 5px;
+
+}
+
+.mentor-price-card-plan-item:hover {
+background-color: #f9f9f9;
+border-radius: 5px;
+}
+
+.mentor-price-card-plan-item.active {
+background-color: var(--dash-color);
+border-radius: 5px;
+color: white;
+
+}
+
+.mentor-price-card-plan-details {
+margin-top: 10px;
+width: 80%;
+padding: 10px;
+border-top: 1px solid #ddd;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.mentor-price-card-price{
+    font-size:xx-large;
+}
+.mentor-price-card-item-container{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+.material-icons{
+    color: var(--dash-color);
+}
+.mentor-price-card-description{
+    overflow-wrap: break-word;
+    
+}
+.mentor-price-card-submit-button{
+    width: 80%;
+    position: absolute;
+    bottom: 15%;
+    background-color: var(--dash-color);
+    height: 2rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.mentor-price-card-plans.active-tab {
+    background-color: var(--dash-color);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  .mentor-price-card-plan-item.active {
+    background-color: var(--dash-color);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }

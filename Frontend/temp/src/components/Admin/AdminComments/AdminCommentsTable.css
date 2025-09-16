@@ -1,0 +1,27 @@
+.admin-comments-panel {
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    width: 100%;
+    height: 56.25rem;
+}
+
+.admin-comments-button {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.admin-comments-close-button {
+    background-color: #6c757d;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin-comments-close-button:hover {
+    background-color: #5a6268;
+}

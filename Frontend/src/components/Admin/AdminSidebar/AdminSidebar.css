@@ -1,0 +1,36 @@
+.admin-sidebar-container{
+    display: flex;
+    flex-direction: column;
+    background: #292929;
+    height: 100%;
+    width: 15.625rem;
+    align-items: center;
+    
+
+
+}
+.admin-sidebar-logo{
+    margin: 2rem;
+}
+.admin-sidebar-container li{
+    width: 100%;
+    height: 4.5rem;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.admin-sidebar-container li:hover{
+    background-color: #1b1b1b;
+
+}
+.admin-sidebar-container ul{
+    width: 100%;
+}
+.admin-sidebar-item{
+    margin-right: 1rem;
+
+}

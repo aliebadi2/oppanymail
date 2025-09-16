@@ -1,0 +1,32 @@
+.mentor-sb-item-container {
+    width: 15.625rem;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Yekan";
+    direction: rtl;
+}
+
+.mentor-sb-item-container:hover {
+    border-right: 5px solid #FF7900;
+}
+
+.mentor-sb-item-inner-container {
+    margin-right: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.mentor-sb-item-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.mentor-sb-item-text {
+    font-size: 1rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    color: #757575;
+}

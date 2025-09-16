@@ -1,0 +1,17 @@
+.question-section-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding-bottom: 5rem;
+  font-weight: 400;
+
+}
+
+.question-section-title {
+  font-size: 3rem;
+  font-weight: 400;
+  
+}/*# sourceMappingURL=Questions.css.map */

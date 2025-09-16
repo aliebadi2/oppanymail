@@ -1,0 +1,32 @@
+.question-box{
+    border-bottom: 2px solid #2d2b2ba8;
+    width: 55%;
+    padding: 0 2rem;
+    margin-bottom: 3.5rem;
+}
+
+.question-title{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.question-title-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.75rem;
+    
+}
+.question-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qusetion-discription{
+    font-size: 1rem;
+    font-weight: 100;
+    transition: height 0.3s ease;
+    
+      
+}

@@ -1,0 +1,19 @@
+.dash-bord-account-history{
+    width: 61rem;
+  h5{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+
+.dash-board-balance{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: #757575;
+        
+    }
+}

@@ -1,0 +1,13 @@
+.star-rating-component{
+direction: ltr;
+}
+
+.star-rating-component {
+  display: flex;
+  align-items: center;
+}
+
+.star-rating-component svg {
+  font-size: 1.5rem; /* Adjust the size of the stars */
+  margin-right: 0.2rem; /* Optional: adds space between the stars */
+}

@@ -1,0 +1,32 @@
+.mentee-dashboard-sb-item-container {
+    width: 15.625rem;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Yekan";
+    direction: rtl;
+}
+
+.mentee-dashboard-sb-item-container:hover {
+    border-right: 5px solid #FF7900;
+}
+
+.mentee-dashboard-sb-item-inner-container {
+    margin-right: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.mentee-dashboard-sb-item-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.mentee-dashboard-sb-item-text {
+    font-size: 1rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    color: #757575;
+}

@@ -1,0 +1,52 @@
+.my-mentees-container{
+
+}
+.mentees-card-container{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+}
+.mentee-card{
+width: 17.8rem;
+height: 7.3rem;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 1px #0000001A;
+box-sizing: border-box;
+padding: 0.6rem;
+margin-bottom: 2rem;
+}
+.mentee-card-info-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    p{
+        margin: 0;
+        color: #757575;
+    }
+    a{
+        text-decoration: none;
+        color: #FF7900;
+    }
+}
+.mentee-card-image{
+width: 3.125rem;
+height: 3.125rem;
+background-color: #FF7900;
+border-radius: 50%;
+margin-left: 0.7rem;
+}
+.mentee-card-info{
+
+}
+.mentee-card-buttons{
+margin-top: 1rem;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.height-1{
+    height: 2rem;
+    font-size: 0.9rem;
+}

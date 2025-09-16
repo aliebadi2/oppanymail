@@ -1,0 +1,38 @@
+/* MobileNavbar.css */
+.mobileNavbarContainer {
+    width: 100%;
+    padding: 1rem 0 ;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mobileNavbarContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .mobileNavbarButtons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .mobileMenuIcon {
+    /* Add styles for the menu icon */
+  }
+  
+  .mobilenavbarLogo {
+    width: 3rem;
+    height: auto;
+  }
+  .navbarLogo{
+    margin-right: 1rem;
+  }
+  .mobileNavbar-search-button{
+    background: none;
+   
+    
+  }

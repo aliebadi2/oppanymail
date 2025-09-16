@@ -1,0 +1,108 @@
+/* General styles for larger screens */
+.choose-container {
+    width: 90%;
+    max-width: 1200px; /* Optional: Set a max-width for larger screens */
+    height: auto; /* Change to auto to adapt to content */
+    background-color: #147C1E33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    margin-bottom: 3rem;
+    padding: 1rem; /* Add padding for better spacing */
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    gap: 5rem;
+}
+
+.choose-title {
+    font-weight: 400;
+    font-size: 2.25rem;
+    text-align: center; /* Center-align text */
+    margin-bottom: 1rem; /* Add margin for spacing */
+}
+
+.choose-explain {
+    font-size: 1.375rem;
+    text-align:center; /* Center-align text */
+    width: 100%; /* Full width */
+    max-width: 900px; /* Optional: Set a max-width for readability */
+    margin-bottom: 2rem; /* Add margin for spacing */
+}
+
+.choose-options {
+    width: 100%;
+    max-width: 900px; /* Optional: Set a max-width */
+    display: flex;
+    align-items: center; /* Center-align items */
+    gap: 1rem; /* Add gap between items */
+    font-size: 1.5rem;
+}
+.choose-options-1{
+    padding-right: 1rem;
+}
+.choose-options-1,
+.choose-options-2 {
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column; /* Stack options vertically */
+    gap: 1rem; /* Add gap between options */
+}
+
+.choose-orange-color {
+    color: #C2410C;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .choose-title {
+        font-size: 1.75rem; /* Smaller font size */
+    }
+    
+    .choose-explain {
+        font-size: 1.25rem; /* Smaller font size */
+        width: 90%; /* Adjust width */
+    }
+    
+    .choose-options {
+        display: flex; /* Stack options vertically on smaller screens */
+        align-items: center; /* Center-align items */
+    }
+
+    .choose-options-1,
+    .choose-options-2 {
+        width: 100%; /* Full width */
+        display: flex;
+        flex-direction: column; /* Stack options vertically */
+    }
+}
+
+@media (max-width: 500px) {
+    .choose-container{
+        width: 80%;
+    }
+    .choose-title {
+        font-size: 1.5rem; /* Even smaller font size */
+    }
+    
+    .choose-explain {
+        font-size: 1.1rem; /* Even smaller font size */
+        width: 100%; /* Full width */
+        text-align: justify;
+    }
+    
+    .choose-options {
+        width: 100%; /* Full width */
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    
+    .choose-options-1,
+    .choose-options-2 {
+        width: 100%; /* Full width */
+        flex-direction: row; /* Align options horizontally */
+        justify-content: space-around; /* Distribute space evenly */
+        
+    }
+}

@@ -1,0 +1,27 @@
+/* src/DataTable.css */
+.data-table {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: 400;
+  }
+  
+  .data-table thead {
+    background-color: var(--dash-color);
+    color: white;
+  }
+  .data-table th{
+    background-color: #2c71c6;
+    color: white;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 6px 15px;
+  }
+  
+  .data-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  

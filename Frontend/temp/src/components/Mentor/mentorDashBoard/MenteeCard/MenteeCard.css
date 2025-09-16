@@ -1,0 +1,81 @@
+/* MenteeCard.css */
+.mentee-card {
+    width: 17.8rem;
+    height: 7.3rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #0000001A;
+    box-sizing: border-box;
+    padding: 0.6rem;
+    margin-bottom: 2rem;
+  }
+  .mentee-card-info-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .mentee-card-info-img p {
+    margin: 0;
+    color: #757575;
+  }
+  .mentee-card-info-img a {
+    text-decoration: none;
+    color: #FF7900;
+  }
+  .mentee-card-info p{
+  font-size: 1.1rem;
+  font-weight: 550;
+  }
+  .mentee-card-info button{
+  font-size: 0.8rem;
+  }
+  .mentee-card-image {
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: #FF7900;
+    border-radius: 50%;
+    margin-left: 0.7rem;
+  }
+  .mentee-card-buttonss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.7rem;
+    gap: 1.5rem;
+  }
+  .mentee-card-see-information{
+  border: none;
+  padding-right: 0;
+  color: var(--dash-color);
+  }
+  .mentee-card-see-information:hover{
+  background: none;
+  color: var(--dash-hover-color)
+  }
+  .height-1 {
+    height: 2rem;
+    font-size: 0.9rem;
+  }
+  .mentee-card-button-reject{
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.1607843137);
+  }
+  .mentee-card-button-reject:hover{
+  background-color: var(--dash-color);
+  }
+  .mentee-card-button-accept{
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--dash-color);
+    color: white;
+    box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.1607843137);
+  }
+
+  .mentee-card-button-accept:hover{
+    background-color: var(--dash-hover-color);
+  }

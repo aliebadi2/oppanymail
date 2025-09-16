@@ -1,0 +1,366 @@
+.mentorinfo-page {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 10px;
+    direction: rtl;
+    font-family: "Yekan";
+    align-items: start;
+    position: relative;
+
+    
+  }
+  
+  .mentorinfo-inner-container {
+    width: 90%;
+    gap: 0.2rem;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 5px 16px 0px #0000001a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding: 1rem;
+  }
+  
+  .mentorinfo-inputs-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+  
+  .mentorinfo-goal-container {
+    width: 85%;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  
+  .mentorinfo-goal-label {
+    width: 46.938rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    margin-right: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mentorinfo-goal-input {
+    width: 90%;
+    height: 5.8rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Yekan";
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    border: 2px solid #e6e6e6;
+    line-height: 1.5rem;
+    text-wrap: wrap;
+    resize: none;
+    padding: 0.3rem 0.7rem ;
+  }
+  
+  .mentorinfo-goal-input:focus {
+    outline: none;
+  }
+  
+  .mentorinfo-goal-button {
+    width: 90%;
+    height: 3.125rem;
+    background-color: var(--dash-color);
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Yekan";
+    cursor: pointer;
+    border: none;
+    bottom: 1rem;
+  }
+  
+  .mentorinfo-goal-button-container {
+    width: 90%; /* Match the width of the container */
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end; /* Align button to the right */
+    padding-top: 1rem; /* Add some padding for spacing */
+    bottom: 5%;
+  }
+  .success-message{
+  position: absolute;
+  width: 90%;
+  bottom: 0;
+  text-align: center;
+  }
+
+  .change-password-error-message {
+    color: red;
+    font-size: 0.9rem;
+    background-color: rgba(255, 0, 0, 0.368);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  .input-error {
+    border: 2px solid red;
+  }
+
+  .select-input {
+    width: 100%;
+    height: 2.5rem; /* Adjusted to match input height */
+    padding: 0.1rem;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+    font-family: "Yekan";
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
+    background-color: white;
+    direction: rtl;
+    margin-top: 0.2rem;
+    
+}
+
+.select-input:focus {
+    border-color: var(--dash-color); /* Match the focus color of the input */
+    outline: none;
+}
+
+.select-input-container {
+    width: 50%;
+    height: 7.188rem;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    font-family: "Yekan";
+    align-items: center;
+}
+
+.select-input-inner-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.select-input-label-container {
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+    height: 2.188rem;
+    width: 20.625rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.mentor-dashboard-select-multi-select {
+  position: relative;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.mentor-dashboard-select-multi-select-label {
+  font-family: "Yekan";
+  font-size: 1rem;
+  color: #333;
+}
+
+.mentor-dashboard-select-multi-select-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.mentor-dashboard-select-multi-select-option {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.mentor-dashboard-select-multi-select-option input {
+  margin-right: 10px;
+}
+
+
+
+
+
+.mentorinfo-inputs-skills{
+  width: 40rem;
+  padding-right: 0.5rem;
+}
+
+
+
+
+.education-input-edit-container{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mentor-dashboard-select-multi-select-dropdown {
+  border: 2px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: white;
+  z-index: 10;
+}
+
+.mentor-dashboard-select-multi-select-option {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.mentor-dashboard-select-multi-select-option label {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.mentor-dashboard-select-multi-select-option input {
+  margin-right: 0.5rem;
+}
+
+
+
+.mentor-info-change-pass-button-container{
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Popup Overlay */
+.mentorinfo-popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;  
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup Content */
+.mentorinfo-popup-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 30rem;
+  max-width: 90%;
+  height: 100vh;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close Button */
+.mentorinfo-close-popup-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Disable scrolling when the popup is open */
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+
+.mentorinfo-close-popup-button:hover{
+  background: none;
+}
+/* Popup Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+  
+  /* Responsive Styles for Mobile Devices */
+  @media (max-width: 768px) {
+    .mentorinfo-page {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+      align-items: flex-start;
+    }
+  
+    .mentorinfo-inner-container {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+  
+    .mentorinfo-inputs-container {
+      width: 90%;
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .mentorinfo-goal-container {
+      width: 100%;
+      height: auto;
+      
+    }
+  
+    .mentorinfo-goal-label,
+    .mentorinfo-goal-input {
+      width: 100%;
+    }
+  
+    .mentorinfo-goal-button-container {
+      width: 100%;
+      justify-content: center;
+      padding-top: 1rem;
+      border: none;
+    }
+  
+    .mentorinfo-goal-button {
+      width: 90%;
+      border: none;
+    }
+  }
+  

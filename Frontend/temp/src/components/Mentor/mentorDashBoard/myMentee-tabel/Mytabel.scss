@@ -1,0 +1,37 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    direction: rtl;
+    box-shadow: 0px 0px 10px 1px #0000001A;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #FF7900;
+    color: white;
+  }
+  
+  
+  
+  .action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: red;
+  }
+  

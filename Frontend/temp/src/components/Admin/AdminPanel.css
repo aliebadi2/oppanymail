@@ -1,0 +1,12 @@
+.admin-panel{
+    display: flex;
+    direction: rtl;
+    flex-direction: start;
+    width: 100%;
+    height: 56.25rem;
+}
+
+.admin-panel-content{
+    flex-grow: 1;
+    padding: 2rem;  
+}

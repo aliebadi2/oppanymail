@@ -1,0 +1,86 @@
+.admin-skills-container {
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+}
+
+.admin-skills-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-skills-create-skill {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.admin-skills-create-skill input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-skills-create-skill button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-skills-create-skill button:hover {
+  background-color: #0056b3;
+}
+
+.admin-skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  animation: admin-skills-fadeIn 0.5s ease-in;
+}
+
+.admin-skills-table th, .admin-skills-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.admin-skills-table th {
+  background-color: #f4f4f4;
+}
+
+.admin-skills-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admin-skills-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+.admin-skills-table button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-skills-table button:hover {
+  background-color: #d4d4d4;
+}
+
+@keyframes admin-skills-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

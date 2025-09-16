@@ -1,0 +1,180 @@
+/* تنظیمات عمومی */
+.mentoring-details {
+    width: 65rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.mentoring-details-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 40.5rem;
+    height: 27.1rem;
+    
+
+}
+
+.mentoring-details-inputs-right, .mentoring-details-inputs-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%; /* تغییر به 50% برای تقسیم فضای مساوی */
+    
+}
+
+
+
+.mentoring-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 17.25rem;
+ 
+}
+.mentoring-details-with-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0px 5px 16px 0px #0000001A;
+    border-radius: 10px;
+}
+.mentoring-details-title{
+    margin-right: 1rem;
+color: #757575;
+font-size: 1rem;
+font-weight: 500;
+}
+.mentoring-input p {
+    margin: 0;
+    margin-right: 1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.mentoring-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%; /* تنظیم به 100% برای پر کردن فضای موجود */
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+ .mentoring-company-inputs{
+    width: 21rem;
+    height: 30rem;
+    box-shadow: 0px 5px 16px 0px #0000001A;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+
+
+
+ ///////////////////
+ 
+ .skill-input-container {
+    margin: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 14.75rem;
+    height: 1.8rem;
+    font-size: 1.25rem;
+    border: 2px solid #757575;
+    border-radius: 5px;
+    padding: 0 1rem 0rem 0rem;
+    color: rgba(0, 0, 0, 0.5019607843);
+    margin-bottom: 15px;
+    
+  }
+  
+  .skill-input {
+    outline: none;
+    background-color: transparent;
+    border: 0px solid;
+    font-family: "Yekan";
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.5019607843);
+    width: 70%;
+  }
+  
+  .skill-button {
+    font-family: "Yekan";
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: none;
+    background: orange;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-button:hover {
+    background: darkorange;
+  }
+  
+  .skills-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .skill-item {
+    margin: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 1.25rem;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    padding: 0.3rem;
+    color: rgba(0, 0, 0, 0.5019607843);
+    margin-bottom: 5px;
+    //box-sizing: border-box;
+  }
+  
+  .skill-item span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skill-item button {
+    padding: 2px;
+    border: none;
+    
+    color: rgb(85, 83, 83);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  
+  
+//   button {
+//     background: orange;
+//     color: white;
+//     border: none;
+//     padding: 10px;
+//     border-radius: 4px;
+//     cursor: pointer;
+//   }
+  

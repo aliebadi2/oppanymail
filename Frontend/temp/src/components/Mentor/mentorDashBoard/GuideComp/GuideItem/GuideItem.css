@@ -1,0 +1,25 @@
+.guide-item-component{
+    height: 1.166rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+.guide-item-icon-container{
+    height: 100%;
+    width: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guide-item-icon{
+    width: 0.875rem;
+    height: 1rem;
+    fill: aqua;
+}
+.guide-item-text{
+    font-family: "Yekan";
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 0.35rem;
+}

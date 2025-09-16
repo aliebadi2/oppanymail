@@ -1,0 +1,58 @@
+.projects-container {
+    width: 95%;
+    overflow-x: auto; /* Ensures horizontal scroll on smaller screens */
+    font-family: "Yekan";
+    margin-top: 2rem;
+}
+
+.projects-responsive-table {
+    width: 100%;
+    border-collapse: collapse; /* Removes default table borders */
+}
+
+.projects-responsive-table th,
+.projects-responsive-table td {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    text-align: left;
+    text-align: center; /* Centers text horizontally */
+    vertical-align: middle; /* Centers content vertically */
+}
+.projects-responsive-table td{
+    color: #757575;
+    font-weight: 400;
+}
+
+.projects-responsive-table th {
+    background-color: #2C71C6; /* Light background for headers */
+    font-weight: 400;
+    font-size: 0.875;
+    color: white;
+    
+}
+
+.projects-responsive-table td button {
+    background-color: #3A8EEF; /* Example button styling */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 78%;
+}
+
+.projects-responsive-table td button:hover {
+    background-color: #45a049; /* Darker button on hover */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .responsive-table th,
+    .responsive-table td {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .responsive-table td button {
+        padding: 4px 8px;
+    }
+}

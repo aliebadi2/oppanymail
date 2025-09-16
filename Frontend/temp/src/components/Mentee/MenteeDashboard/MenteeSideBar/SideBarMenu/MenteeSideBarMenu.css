@@ -1,0 +1,122 @@
+.mentee-dashboard-sb-menu-container {
+    height: 100%;
+    width: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    font-family: "Yekan";
+    position: relative;
+    background-color: white;
+}
+
+.mentee-dashboard-sb-menu-logo {
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    font-size: 22px;
+}
+
+.mentee-dashboard-sb-menu-information {
+    display: flex;
+    padding-top: 3rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12.813rem;
+}
+
+.mentee-dashboard-sb-menu-exit-icon {
+    color: var(--dash-color);
+    font-size: 1.7rem;
+}
+
+.mentee-dashboard-sb-menu-information-img-holder {
+    width: 6.524rem;
+    height: 6.406rem;
+    background-color: var(--dash-color);
+    border-radius: 0.75rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.mentee-dashboard-sb-menu-profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mentee-dashboard-sb-menu-edit-icon {
+    left: 3px;
+    bottom: 3px;
+    color: var(--dash-color);
+    position: absolute;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+.mentee-dashboard-sb-menu-edit-icon:hover {
+    background: none;
+}
+
+.mentee-dashboard-sb-menu-information-name {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.mentee-dashboard-sb-menu-information-email {
+    font-size: 0.875rem;
+    color: #718096;
+    font-weight: 400;
+}
+
+.mentee-dashboard-sb-menu-item-list li {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mentee-dashboard-sb-menu-item-list li.active {
+    background-image: linear-gradient(90deg, rgba(255, 121, 0, 0) 58.5%, rgba(255, 121, 0, 0.15) 100%);
+    border-right: 4px solid #FF7900;
+    color: #FF7900;
+}
+
+.mentee-dashboard-sb-menu-item-list li.active .sb-item-icon svg {
+    color: #FF7900;
+}
+
+.mentee-dashboard-sb-menu-item-list li.active .sb-item-text {
+    color: #FF7900;
+}
+
+.mentee-dashboard-sb-menu-exit {
+    top: 1%;
+    left: 5%;
+    font-family: "Yekan";
+    font-size: 1rem;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.mentee-dashboard-sb-menu-exit:hover {
+    background-color: rgba(190, 190, 255, 0.414);
+}
+
+.mentee-dashboard-sb-menu-exit-text {
+    margin-right: 1rem;
+    color: #EA526F;
+    background: none;
+}
+
+@media (max-width: 768px) {
+    .mentee-dashboard-sb-menu-container {
+        width: 100%;
+    }
+}

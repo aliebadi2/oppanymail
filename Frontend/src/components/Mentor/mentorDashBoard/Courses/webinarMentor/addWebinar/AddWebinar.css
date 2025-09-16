@@ -1,0 +1,98 @@
+.add-project-section{
+    width: 34.188rem;
+    height: 21.438rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    justify-content: space-around;
+
+}
+.add-project-title-text-container{
+     display: flex;
+     align-items: center;
+     height: 2.938rem;
+     width: 95%;
+}
+.add-project-title-text{
+    margin-right: 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.add-project-input-name{
+  width: 90%;
+  height: 2.188rem;
+  border: 1px solid #A3A5AD; 
+  padding-right: 1.25rem;
+}
+
+.add-project-input-name::placeholder{
+    color: #A3A5AD;
+    font-size: 0.875;
+}
+.add-project-explain-name{
+    width: 90%;
+    height: 3.313rem;
+    border: 1px solid #A3A5AD; 
+    padding-right: 1.25rem;
+}
+.add-project-explain-name::placeholder{
+    color: #A3A5AD;
+    font-size: 0.875;
+}
+.add-project-file-input-container{
+    width: 90%;
+    height: 3.313rem;
+    border: 1px solid #A3A5AD; 
+    padding-right: 1.25rem;
+    display: flex;
+    
+}
+.add-project-file-input{
+    width: 80%;
+    height: 95%;
+    border: none;
+    outline: none;
+}
+.add-project-file-input::placeholder{
+    color: #A3A5AD;
+    font-size: 0.875;
+}
+.add-project-file-button-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-project-file-button {
+    font-family: "Yekan";
+    background: none;
+    color: #F29E3A;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-project-file-button:hover {
+    color: #e48b1e;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  .add-project-button-container{
+    width: 95%;
+    height: 3.125rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .add-project-button{
+    background-color: var(--dash-color);
+    padding: 12px 15px 12px 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+  }

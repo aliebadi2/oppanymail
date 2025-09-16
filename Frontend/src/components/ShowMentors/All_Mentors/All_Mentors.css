@@ -1,0 +1,292 @@
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Container for the entire All Mentors page */
+.skill-mentors-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.all-mentors-page {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.6s ease-in-out; /* Page fade-in animation */
+}
+
+/* Mentor cards list */
+.mentor-card-list, .all-mentors-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 3rem; /* Gap between the cards */
+  padding: 20px;
+  justify-content: center; /* Spread cards evenly */
+  animation: fadeIn 0.6s ease-in-out; /* Adding fade-in animation for the card list */
+}
+
+/* Individual mentor card */
+.mentor-card {
+  width: 30rem;
+  height: 22rem;
+  box-shadow: 0 4px 4px 0 #00000040;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: rgba(241, 245, 251, 0.459);
+  direction: rtl;
+  opacity: 0;
+  animation: fadeIn 0.6s ease-in-out forwards; /* Adding fade-in animation for individual cards */
+}
+
+/* Mentor card inner details */
+.mentor-card-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  gap: 0.4rem;
+  
+}
+
+.mentor-card-image-container img {
+  width: 6.125rem;
+  height: auto;
+}
+
+.mentor-card-job-title {
+  color: #3F3F46;
+}
+
+.mentor-card-image-container {
+  border-radius: 50%;
+  width: 6.125rem;
+  height: 6.125rem;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+.mentor-card-details {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.mentor-card-details h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.mentor-card-details p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.mentor-card-skills {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 1rem;
+  overflow-x: scroll;
+}
+
+.mentor-card-skill {
+  background-color: #E0E0E0;
+  padding: 10px 22px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+/* Mentor card layout containers */
+.mentor-card-comp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 33%;
+}
+
+.mentor-card-main-container {
+  display: flex;
+  width: 100%;
+}
+
+.card-item-container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+  height: 50%;
+}
+
+.card-item-city-name-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  gap: 0.3rem;
+  padding-bottom: 0.4rem;
+}
+
+.mentor-image-stars-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Search bar container */
+.all-mentors-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+/* Search input box and search icon button container */
+.all-mentors-search-box-button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+/* Search input container */
+.all-mentors-search-input-box {
+  width: 95%;
+  display: flex;
+  border-radius: 10px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: -5px 10px 40px 0 rgba(23, 31, 133, 0.122) !important;
+  height: 4rem;
+}
+
+.all-mentor-upper-title {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #0F172A;
+}
+
+.all-mentors-search-input {
+  height: 95%;
+  border: none;
+  width: 70%;
+  font-size: 1.2rem;
+  font-family: 'Yekan';
+  padding: 0 10px;
+}
+
+.all-mentors-search-input:focus {
+  outline: none;
+}
+
+.all-mentors-search-input::placeholder {
+  font-size: 1.2rem;
+}
+
+.all-mentors-search-button {
+  padding: 10px 30px;
+  background-color: var(--dash-color);
+  font-family: 'Yekan';
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.all-mentors-upper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+/* Label above the search bar */
+.all-mentors-search-label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Dropdown for filtered mentor results */
+.all-mentors-results-dropdown {
+  position: absolute;
+  top: 15rem;
+  width: 75%;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Each mentor item in the dropdown */
+.all-mentors-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.all-mentors-item:hover {
+  background-color: var(--dash-hover-color);
+}
+
+.all-mentors-item:last-child {
+  border-bottom: none;
+}
+
+.no-mentors-message {
+  font-size: 1.5rem;
+  color: #555;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .all-mentors-search-container {
+    width: 80%;
+  }
+
+  .all-mentors-search-input {
+    font-size: 1rem;
+  }
+
+  .all-mentors-search-label {
+    font-size: 1.2rem;
+  }
+
+  .mentor-card-list {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  /* Full-width cards on small screens */
+  .mentor-card {
+    flex: 1 1 100%;
+    width: 100%; /* Full width on smaller screens */
+  }
+}

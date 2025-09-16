@@ -1,0 +1,23 @@
+/* DateInput.css */
+.custom-datepicker {
+    width: 90%; /* Set your desired width */
+    display: flex;
+    align-items: center;
+    border: 1px solid #A3A5AD;
+  }
+  
+  .custom-datepicker input {
+    width: 100%; /* Ensures the input takes up the full width of the parent */
+    padding: 10px; /* Adjust padding if needed */
+    font-size: 16px; /* Customize font size */
+    height: 90%;
+    border: none;
+  }
+  .custom-datepicker input:focus{
+    outline: none;
+  }
+
+  .datepicker-calendar-icon{
+    margin-right: 0.5rem;
+  }
+  

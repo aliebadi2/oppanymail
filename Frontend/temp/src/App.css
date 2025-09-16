@@ -1,0 +1,88 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Yekan';
+  direction: rtl;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+:root {
+  --dash-color: #3A8EEF;
+  --dash-hover-color: #01336c;
+  --or-color: #F29E3A;
+}
+input:-internal-autofill-selected{
+  background: none;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 30px white inset !important; /* Same as above */
+  box-shadow: 0 0 0 30px white inset !important; /* Same as above */
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset !important; /* Change 'white' to your desired background color */
+  box-shadow: 0 0 0 30px white inset !important; /* Change 'white' to your desired background color */
+  transition: background-color 5000s ease-in-out 0s; /* Keep the transition smooth */
+}
+
+/* Custom scrollbar styles for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 5px; /* Height of the scrollbar (for horizontal scrollbars) */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 6px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 3px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+::-webkit-scrollbar-button {
+  background: #f1f1f1; /* Background for scrollbar buttons (up/down arrows) */
+}
+
+
+.status-buttons-container{
+  display: flex;
+}
+button{
+  font-family: "Yekan";
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+input{
+  font-family: "Yekan";
+}
+
+body, input, button, select, textarea {
+  font-family: 'Yekan', sans-serif;
+}
+
+input, button, select, textarea {
+  font-family: inherit; /* This ensures they inherit the font from the body */
+}
+button:hover{
+  background-color: var(--dash-hover-color);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+p {
+padding: 0;
+margin: 0;
+}

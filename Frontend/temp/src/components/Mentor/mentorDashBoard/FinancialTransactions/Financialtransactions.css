@@ -1,0 +1,21 @@
+.transactions-container{
+  width: 90%;
+}
+
+.dash-bord-account-history {
+  width: 100%;
+}
+.dash-bord-account-history h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.dash-board-balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dash-board-balance p {
+  color: #757575;
+}/*# sourceMappingURL=Financialtransactions.css.map */

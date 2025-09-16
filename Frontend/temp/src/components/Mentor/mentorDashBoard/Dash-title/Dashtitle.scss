@@ -1,0 +1,15 @@
+.dash-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 12.25rem;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.dash-title-text{
+    font-weight: 150;
+    font-size: 2rem;
+}

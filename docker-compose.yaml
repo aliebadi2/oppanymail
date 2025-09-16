@@ -1,0 +1,29 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./Frontend  
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8000/api  
+
+  backend:
+    build:
+      context: ./Backend  
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis  
+    environment:
+      - DATABASE_URL=postgresql://amirap:password@154.91.170.123:5432/mentorship  
+      - REDIS_URL=redis://redis:6379
+      - DOCS_USER=amirap
+      - DOCS_PASS=Aa!23456
+
+  redis:
+    image: redis:alpine  
+    ports:
+      - "6379:6379"

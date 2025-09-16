@@ -1,0 +1,73 @@
+.article-page-header-card-component {
+    width: 97%;
+    height: 28.125rem;
+    border-radius: 12px;
+    position: relative;
+}
+
+.article-page-header-card-information-container {
+    width: 65%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 11.5rem;
+    bottom: 5%;
+    right: 5%;
+}
+
+.article-page-header-card-spec-tag {
+    display: inline;
+    width: fit-content;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 0.8rem;
+    background-color: var(--dash-color);
+    margin-top: 1rem;
+    color: white;
+}
+
+.article-page-header-card-title-container {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: white;
+}
+
+.article-page-header-writer-information {
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.article-page-header-writer-name-profile {
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+    color: white;
+}
+
+.article-page-header-profile-container {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-page-header-profile-image {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-page-header-writer-name {
+    font-size: 1rem;
+}
+
+.article-page-header-date {
+    font-size: 1rem;
+}

@@ -1,0 +1,184 @@
+.mentor-comment-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    direction: rtl;
+    font-family: "Yekan";
+    box-sizing: border-box;
+    padding: 3rem;
+}
+.mentor-comment-title-container{
+    font-size: 2.25rem;
+    color: #0F172A;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+}
+.mentor-comment-comment-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 70%;
+}
+
+.no-comment-mentor-profile{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.add-comment-section {
+    width: 95%;
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.add-comment-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.add-comment-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 75%;
+}
+
+.add-comment-section textarea {
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Yekan";
+    font-size: 1rem;
+    resize: vertical;
+    color: #333;
+}
+
+.add-comment-section button {
+    width: 95%;
+    background-color: #FFC067;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-family: "Yekan";
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-comment-section button:hover {
+    background-color: #FFA800;
+}
+
+.mentor-comment-container {
+    margin-top: 2rem;
+}
+
+
+/* Star Rating Section */
+.star-rating {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  direction: ltr; /* Ensure stars align from left to right */
+  margin-bottom: 1rem;
+}
+
+.star-rating span {
+  font-size: 2rem;  /* Size of the star */
+  color: #ccc;  /* Grey for inactive stars */
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;  /* Smooth transition for color */
+}
+
+/* Hover effect: only stars from 1 to the hovered star turn gold */
+.star-rating span:hover,
+.star-rating span:hover ~ span {
+  color: #ccc;  /* Grey for stars after the hovered one */
+}
+
+.star-rating span.on {
+  color: #FFD700;  /* Gold for active stars */
+}
+
+.star-rating span:hover ~ span {
+  color: #ccc; /* Keep stars after the hovered star grey */
+}
+
+/* Comment stars: proper alignment from left to right */
+.mentor-comment-stars {
+  display: flex;
+  direction: ltr;  /* Ensure the stars are displayed from left to right */
+}
+
+.mentor-comment-stars span {
+  font-size: 1.5rem;
+  color: #354cff;  /* Gold color for stars */
+}
+
+/* Success Message CSS */
+.success-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  font-family: "Yekan";
+  font-size: 1rem;
+  text-align: center;
+  width: 50%;
+}
+
+.add-comment-section textarea {
+  width: 90%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Yekan";
+  font-size: 1rem;
+  resize: vertical;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.add-comment-section button {
+  width: 95%;
+  background-color: #6779ff;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-family: "Yekan";
+  font-size: 1rem;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-comment-section button:hover {
+  background-color: #FFA800;
+}
+
+
+@media (max-width: 768px) {
+    .mentor-comment-container{
+        width: 90%;
+        margin-right: 3rem;
+    }
+
+}

@@ -1,0 +1,120 @@
+.mentor-manage-plans-container {
+  font-family: "Yekan";
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.mentor-manage-plans-add-button {
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+  background-color: #2c71c6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mentor-manage-plans-add-button:hover {
+  background-color: #3a8eef;
+}
+
+.mentor-manage-plans-table-container {
+  overflow-x: auto;
+}
+
+.mentor-manage-plans-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mentor-manage-plans-table th,
+.mentor-manage-plans-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.mentor-manage-plans-table th {
+  background-color: #2c71c6;
+  color: white;
+}
+
+.mentor-manage-plans-table td {
+  color: #757575;
+}
+
+.mentor-manage-plans-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.mentor-manage-plans-modal-content {
+  background-color: white;
+  padding: 2rem;
+  width: 500px;
+  border-radius: 8px;
+  position: relative;
+  animation: slideIn 0.4s ease-in-out;
+}
+
+.mentor-manage-plans-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.mentor-manage-plans-close:hover {
+  color: red;
+}
+
+.mentor-manage-plans-modal-content input {
+  display: block;
+  margin: 1rem 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.mentor-manage-plans-modal-content button {
+  padding: 10px 20px;
+  background-color: #2c71c6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mentor-manage-plans-modal-content button:hover {
+  background-color: #3a8eef;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,80 @@
+.add-milestone-container{
+    width: 40.313rem;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+    font-family: "Yekan";
+    gap: 1.25rem;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #A3A5AD33;
+    border-radius: 10px;
+}
+.add-milestone-close-button-container{
+    width: 90%;
+    padding: 6px 20px 6px 20px;
+    display: flex;
+    justify-content: end;
+    
+}
+.add-milestone-warning-container{
+    height: 2.813rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+
+}
+.add-milestone-warning{
+    margin-right: 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+
+}
+
+.add-milestone-title-label-container{
+    width: 100%;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+}
+.add-milestone-title-label{
+    margin-right: 1.25rem;
+}
+.add-milestone-level-input{
+    width: 90%;
+    border: 1px solid #D9D9D9;
+    height: 2rem;
+    padding-right: 1rem;
+    
+
+}
+
+.add-milestone-level-input .add-milestone-explain-input::placeholder{
+
+    color: #A3A5AD;
+}
+
+.add-milestone-explain-input{
+    height: 5.563rem;
+    width: 90%;
+    border: 1px solid #D9D9D9;
+    padding-right: 1rem;
+}
+.add-milestone-button-container{
+    width: 100%;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+}
+.add-milestone-button{
+    height: 100%;
+    border-radius: 10px;
+    padding: 7px 20px 7px 20px;
+    background-color: var(--dash-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}

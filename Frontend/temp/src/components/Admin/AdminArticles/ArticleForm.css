@@ -1,0 +1,65 @@
+.admin-article-dashboard-form-container {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.admin-article-dashboard-form-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.admin-article-dashboard-error-message {
+  color: #d9534f;
+  text-align: center;
+  background: #ffe6e6;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.admin-article-dashboard-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.admin-article-dashboard-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-article-dashboard-input {
+  padding: 0.85rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.admin-article-dashboard-input:focus {
+  border-color: #007bff;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.admin-article-dashboard-submit-button {
+  padding: 0.85rem;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-article-dashboard-submit-button:hover {
+  background: linear-gradient(135deg, #0056b3, #004494);
+}

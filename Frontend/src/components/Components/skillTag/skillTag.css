@@ -1,0 +1,18 @@
+.skill-tag-container{
+    display: flex;
+    gap: 0.3rem;
+    background-color: #F1F5F9;
+    border-radius: 1.563rem;
+    font-size: 1rem;
+    color: hsl(217, 33%, 17%);
+    font-weight: 400;
+    align-items: center;
+}
+
+.skill-tag-skill-container{
+    padding: 0.4rem;
+    
+}
+.skill-tag-close-icon{
+    padding-left: 0.3rem;
+}

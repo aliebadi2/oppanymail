@@ -1,0 +1,56 @@
+.mentor-dashboard-plan-container {
+  font-family: "Yekan";
+  margin: 2rem auto;
+  width: 95%;
+}
+
+.mentor-dashboard-plan-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.mentor-dashboard-plan-toggle button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.mentor-dashboard-plan-toggle button.active {
+  background-color: #2c71c6;
+  color: white;
+}
+
+.mentor-dashboard-plan-table-container {
+  overflow-x: auto;
+}
+
+.mentor-dashboard-plan-responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mentor-dashboard-plan-responsive-table th,
+.mentor-dashboard-plan-responsive-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.mentor-dashboard-plan-responsive-table th {
+  background-color: #2c71c6;
+  color: white;
+}
+
+.mentor-dashboard-plan-responsive-table td {
+  color: #757575;
+}
+
+.mentor-dashboard-plan-error-message {
+  color: red;
+}

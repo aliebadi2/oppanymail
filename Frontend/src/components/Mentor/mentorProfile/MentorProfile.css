@@ -1,0 +1,120 @@
+.mentor-profile-page {
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    direction: rtl;
+    font-family: "Yekan";
+    background-color: aliceblue;
+}
+.mentor-card-container {
+    position: absolute;
+    left: 20px; /* Adjust as needed */
+    top: 300px; /* Initial position */
+    transition: position 0.3s ease, top 0.3s ease;
+  }
+  
+  .mentor-card-container.fixed {
+    position: fixed;
+    top: 20px; /* Fixed position when scrolling */
+  }
+  
+  .mentor-card-container.absolute {
+    position: absolute;
+    top: auto; /* Reset to bottom after scrolling */
+    top: 100px; /* Adjust as needed */
+  }
+  
+
+.relative-mentor-card {
+    position: absolute;
+    left: 100px; /* Adjust as needed */
+}
+
+.mentor-profile-score{
+    padding-right: 5rem;
+}
+
+.fixed-mentor-card {
+    position: fixed;
+    left: 100px; /* Adjust as needed */
+    top: 150px; /* This value should match the fixedPosition state in JS */
+}
+
+.fixed-mentor-card-mobile {
+    position: fixed;
+    left: 5px;
+    right: 10px;
+    bottom: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    
+    
+}
+
+.toggle-mentor-card-button {
+    position: fixed;
+    bottom: 80px;
+    left: 10%;
+    transform: translateX(-50%);
+    background-color: #FFC067;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    z-index: 1001;
+    cursor: pointer;
+    font-family: "Yekan";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-mentor-card-button:focus {
+    outline: none;
+}
+
+
+.about-mentor-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Yekan";
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+}
+.about-mentor-title{
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.about-mentor-text{
+    width: 80%;
+    font-size: 1.125rem;
+    white-space: pre-wrap;
+}
+
+@media (max-width: 768px){
+    .about-mentor-section{
+        margin-right: 3rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .relative-mentor-card,
+    .fixed-mentor-card {
+        display: none;
+    }
+
+    .fixed-mentor-card-mobile {
+        width: calc(100% - 20px);
+    }
+}

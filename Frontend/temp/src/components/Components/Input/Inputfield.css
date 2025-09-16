@@ -1,0 +1,45 @@
+.input-field-container {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  font-size: 1.25rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.162);
+  padding: 0 1rem 0.3rem 1rem;
+  color: rgba(0, 0, 0, 0.50);
+}
+
+.input-error{
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.input-field-error::placeholder{
+  color: red;
+}
+
+.input-field {
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  font-family: "Yekan";
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.50);
+  width: 80%;
+  transition: border 0.3s ease;
+}
+
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.animate-error {
+  animation: shake 0.3s ease-in-out;
+}

@@ -1,0 +1,195 @@
+@keyframes slowFadeInSlideUp {
+  from {
+    transform: translateY(20px); 
+    opacity: 0; 
+  }
+  to {
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+}
+
+.login-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 38rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  margin-top: 3rem;
+  box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.32);
+  margin-bottom: 3rem;
+  animation: slowFadeInSlideUp 1.5s ease-in-out forwards;
+}
+
+.login-page-content {
+  width: 60%;
+}
+
+.login-page-title {
+  height: 20%;
+  margin-right: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-page-title-title {
+  margin-bottom: 0.3rem;
+  font-size: 2.25rem;
+  font-weight: 200;
+}
+
+.login-page-title-discription {
+  margin-top: 0rem;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+
+.login-page-image {
+  width: 40%;
+  height: 100%;
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.login-page-input-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-bar {
+  width: 70%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.step-line {
+  width: 35%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.orange-bg {
+  background-color: #ea580c;
+}
+
+.green-bg {
+  background-color: #4D7C0F;
+}
+
+.mentor-signup-page-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.resume-text-box {
+  margin: 0.75rem;
+  margin-top: 2.5rem;
+  width: 65%;
+  height: 9rem;
+  font-size: 1.25rem;
+  border: 2px solid rgba(0, 0, 0, 0.16);
+  border-radius: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  outline: none;
+  background-color: transparent;
+  text-align: start;
+}
+
+.resume-text-box {
+  border: 1px solid #ccc; /* Default border */
+  /* other styles */
+}
+
+.input-field-error{
+  border-color: red;
+}
+
+
+.drag-drop-container {
+  width: 65%;
+}
+
+.signup-drag-error{
+  border-color: rgb(255, 86, 86);
+}
+
+.signup-waiting-text {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin-top: 3rem;
+}
+
+
+.add-skill-inf-container{
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+  font-size: 1.25rem;
+}
+
+.skill-container{
+  border: none;
+}
+
+.add-skill-inf-container div{
+  border: none;
+}
+
+.signup-page-buttons-sss{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  position: absolute;
+  bottom: 7%;
+  width: 50%;
+  background-color: #ea580c;
+}
+
+.signup-small-button{
+  width: 40%;
+}
+
+.signup-big-button{
+  width: 70%;
+}
+
+.react-select-error{
+
+}
+.error-container-div{
+  background-color: rgba(255, 149, 149, 0.651);
+  padding: 0.2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rem;
+}
+.password-error-message{
+  color: rgba(255, 0, 0, 0.603);
+}
+.input-error__control {
+  border-color: rgba(255, 0, 0, 0.603) !important; /* Red border when error occurs */
+  box-shadow: none;
+}
+
+.input-error__control:hover {
+  border-color: rgba(255, 0, 0, 0.603) !important; /* Keep red border on hover */
+}

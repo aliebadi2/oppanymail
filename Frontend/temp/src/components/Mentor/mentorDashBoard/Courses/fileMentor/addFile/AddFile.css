@@ -1,0 +1,40 @@
+.add-mentor-section {
+    height: 17.188rem;
+    width: 35.063rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    gap: 1rem;
+}
+
+.add-mentor-title-container {
+    height: 1.5rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-right: 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2.938rem;    
+}
+
+.add-video-input-title {
+    width: 90%;
+    height: 2.078rem;
+    border: 1px solid #A3A5AD;
+    padding-right: 1.25rem;
+}
+
+.add-mentor-send-button-container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-mentor-send-button {
+    background-color: var(--dash-color);
+    color: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+}

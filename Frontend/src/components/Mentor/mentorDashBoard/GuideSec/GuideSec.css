@@ -1,0 +1,57 @@
+/* GuideSec.css */
+
+/* Styles for larger screens (default) */
+.guide-sec-component {
+    width: 90%;
+    height: 39.375rem;
+    border: 1px solid #EBEBEB;
+    box-shadow: 0px 5px 16px 0px #0000001A;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-sec-inner-component {
+    width: 63.5rem;
+    height: 35.063rem;
+    border: 1px solid #EBEBEB;
+    box-shadow: 0px 5px 16px 0px #0000001A;
+    border-radius: 10px;
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+/* Media query for tablets and mobile devices */
+@media (max-width: 768px) {
+    .guide-sec-component {
+        width: 90%;
+        height: auto;
+        box-shadow: none;
+        flex-direction: column;
+    }
+
+    .guide-sec-inner-component {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 0;
+        gap: 1rem;
+    }
+}
+
+/* Media query for smaller mobile devices */
+@media (max-width: 480px) {
+    .guide-sec-component {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .guide-sec-inner-component {
+        width: 100%;
+        padding: 1rem;
+    }
+}

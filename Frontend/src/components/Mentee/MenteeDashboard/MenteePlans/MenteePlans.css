@@ -1,0 +1,86 @@
+.mentee-plans-container {
+    font-family: "Yekan";
+    margin: 2rem auto;
+    width: 95%;
+  }
+  
+  .mentee-plans-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .mentee-plans-toggle button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .mentee-plans-toggle button.active {
+    background-color: #2c71c6;
+    color: white;
+  }
+  
+  .mentee-plans-toggle button:hover {
+    background-color: #3a8eef;
+    color: white;
+  }
+  
+  .mentee-plans-table-container {
+    overflow-x: auto; /* For horizontal scrolling on smaller screens */
+  }
+  
+  .mentee-responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mentee-responsive-table th,
+  .mentee-responsive-table td {
+    padding: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .mentee-responsive-table th {
+    background-color: #2c71c6;
+    color: white;
+  }
+  
+  .mentee-responsive-table td {
+    color: #757575;
+    font-weight: 400;
+  }
+  
+  .mentee-responsive-table td button {
+    background-color: #3a8eef;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mentee-responsive-table td button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .mentee-responsive-table th,
+    .mentee-responsive-table td {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .mentee-responsive-table td button {
+      padding: 4px 8px;
+    }
+  }
+  
