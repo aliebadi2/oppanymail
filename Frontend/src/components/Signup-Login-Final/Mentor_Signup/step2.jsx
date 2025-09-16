@@ -28,7 +28,7 @@ function Step2({
   useEffect(() => {
     const fetchSkills = async () => {
       try {
-        const response = await axios.get(`${config.path}/skills/`);
+        const response = await axios.get(`${config.path}/skills`);
         const skillOptions = response.data.map((skill) => ({
           value: skill.id,
           label: skill.name,
