@@ -15,9 +15,7 @@ function MentorSuggest() {
   useEffect(() => {
     const fetchMentors = async () => {
       try {
-        const response = await axios.get(`${config.path}/show-mentors/random`, {
-          withCredentials: true,
-        });
+        const response = await axios.get(`${config.path}/show-mentors/random`);
         setMentors(response.data);
         setLoading(false);
       } catch (err) {

@@ -14,7 +14,7 @@ function Hero() {
 
   useEffect(() => {
     // Fetch all mentors' information
-    axios.get(`${config.path}/show-mentors/all`, { withCredentials: true })
+    axios.get(`${config.path}/show-mentors/all`)
       .then(response => {
         setMentors(response.data);
       })

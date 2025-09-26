@@ -20,7 +20,7 @@ const AllMentors = () => {
           ? `${config.path}/show-mentors/by-skills/${skill_id}`
           : `${config.path}/show-mentors/all`;
 
-        const response = await axios.get(url, { withCredentials: true });
+        const response = await axios.get(url);
         setMentors(response.data);
         setFilteredMentors(response.data);
       } catch (error) {
