@@ -15,7 +15,7 @@ def generate_validation_link(username: str, role: str):
     serializer = URLSafeTimedSerializer(SECRET_KEY)
     token = serializer.dumps(username, salt="email-validation")
     # آدرس سرور Backend خودت رو اینجا بذار
-    return f"http://154.91.170.123:8000/signup/activate/{token}"
+    return f"https://oppany.com/api/signup/activate/{token}"
 
 # 🔹 ارسال ایمیل فعال‌سازی
 def send_email_validation_link(username: str, role: str, email: str):

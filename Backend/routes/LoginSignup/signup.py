@@ -270,7 +270,7 @@ def activate_account(token: str, db: Session = Depends(get_db)):
             // Update frontend URL based on environment
             const frontendUrl = window.location.hostname === 'localhost' ? 
                 'http://localhost:3000' : 
-                'http://154.91.170.123';
+                'https://oppany.com';
             
             const timer = setInterval(() => {{
                 countdown--;

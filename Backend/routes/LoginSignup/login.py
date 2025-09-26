@@ -26,7 +26,7 @@ def login(data: LoginRequest, response: Response, db: Session = Depends(get_db))
         key="session_id",
         value=session_id,
         httponly=True,
-        secure=False,
+        secure=True,
         samesite="Lax"
     )
     return {"message": "Login successful"}
